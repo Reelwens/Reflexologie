@@ -4,7 +4,64 @@
 	<meta charset="UTF-8">
 	<title>Reflexo</title>
 </head>
+
+    <style>
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #6bbdd2;
+        }
+        
+        li{
+            float:left;
+            
+        }
+        
+        li:last-child{
+            border-right:none;
+        }
+        
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+            margin-left: 100px
+            
+            
+        }
+        
+        li a:hover:not(.active){
+            background-color: #6bbdd2;
+        }
+        
+        .active{
+            background-color: lightskyblue;
+            
+        }
+        
+        .nom {
+            font-size : 50px;
+            color: #6bbdd2;
+            font-family: sans-serif;
+        }
+    
+    </style>
 <body>
-	<p>Je suis raphael</p>
+    <p align="center">logo</p>
+    <p class="nom" align="center" >Lydia Villot Petriacq</p>
+	
+	<ul>
+	    <li><a class="active" href="#accueil">ACCUEIL</a></li>
+	    <li><a href="#la réflexologie">LA REFLEXOLOGIE</a></li>
+	    <li><a href="#pause détente">PAUSE DETENTE</a></li>
+	    <li><a href="#votre practicienne">VOTRE PRACTICIENNE</a></li>
+	    <li><a href="#contact">CONTACT</a></li>
+	</ul>
+	
 </body>
 </html>
