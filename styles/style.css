@@ -1,86 +1,101 @@
-.left{
-  float: left;
+body{
+  text-align: center;
 }
-.right{
-  float: right;
+
+h1{
+  color: #90ccdb;
 }
-.clearboth{
-  clear: both;
-}
-.container {
-	width: 960px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.col img{
-	background-color: #f4f4f4;
-	margin-top: 10px;
-	text-align: center;
-}
-.lydia{
-	text-align: center;
-	color:#8ecddb;
-	font-size: 8px;
-}
-nav{
-  background-color: #8ecddb;
-  padding: 10px 20px;
-  font-size: 15px;
-  margin-top: 50px;
-  color: #FFFFFF;
-}
-nav ul li{
-  display: inline;
-  width: 200px;
-  color: #FFFFFF;
-  margin-right: 50px;
-  margin-bottom: 10px;
-  position: relative;
-  padding: 5px;
+
+nav li{
   list-style: none;
+  transition: all 0.3s linear;
 }
 
-nav ul li: hover{
-  background: #8ecddb;
-  font: #FFFFFF;
-}
-nav ul li ul{
-  display: none;
-  position: absolute;
-  width: 800px;
+nav li a {
+  display: block;
   color: white;
-  z-index: 2;
-  top:64px;
-  padding: 10px;
-}
-
-nav ul li:hover ul{
-  display: inline-block;
-  background-color: #FFFFFF;
-  color: #FFFFFF;
-}
-
-nav ul li ul li a{
   text-decoration: none;
-  color: #FFFFFF;
+  transition: all 0.3s ease;
 }
 
-body {
-  background-color:#f4f4f4;
+.menu > li{
+  background:#90ccdb; 
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.col{
-  margin-bottom: 10px;
-  margin-top: 5px;
+.menu > li:hover{
+  background:white;
 }
 
-img {
-  width: 100px;
-  height: 100px;
+menu > li > a{
+ color:white;
 }
 
-.well {
-  background-color:#f4f4f4;
-} 
+.menu > li:hover > a {
+  color:#90ccdb ;
+}
+h2{
+  padding-top: 40px;
+  font-size: 20px;
+  font-size: 18px;
+  text-align:left;
+  margin-left:60px
+}
+.text{
+  padding: 15px 15px 0px 20px;
+  text-align:left; 
+  font-size: 25px;
+  margin-left:60px; 
+  margin-left: none;
+  margin-top: 50px;
+  background-color:#d2ebf1;
+}
+
+.col-lg-4{
+  padding-left: 0px;
+}
+
+.col-lg-4 img{
+  margin-top: 50px;
+  width: 90%;
+  border: solid #d2ebf1;
+  border-radius: 20px;
+}
+
+.col-lg-10{
+  margin-top: 100px;
+  margin-left: 170px;
+  width: 74%;
+  height:4px;
+  background-color:#90ccdb; 
+  
+}
+
+.col-lg-9 img{
+  margin-left: 70px;
+  margin-top: 100px;
+  width: 100%
+}
+
+h3{
+  padding-top:50px;
+}
+
+.col-lg-6 ul{
+  margin-top: 20px;
+  background-color:#d2ebf1; 
+  padding: 20px;
+}
+.col-lg-6 ul li{
+  text-align: left;
+  font-size: 25px;
+  list-style: none;
+
+}
+
+.col-lg-12{
+  background-color: grey;
+  padding-top: 20px;
+  height: 50px;
+}
