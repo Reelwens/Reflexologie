@@ -51,11 +51,12 @@ h2{
 .text{
   padding: 15px 15px 0px 20px;
   text-align:left; 
-  font-size: 25px;
+  font-size: 16px;
   margin-left:60px; 
   margin-left: none;
   margin-top: 50px;
   background-color:#d2ebf1;
+  line-height: 25px;
 }
 
 .col-lg-4{
@@ -74,8 +75,7 @@ h2{
   margin-left: 170px;
   width: 74%;
   height:4px;
-  background-color:#90ccdb; 
-  
+  background-color:#90ccdb;
 }
 
 .col-lg-9 img{
@@ -93,15 +93,10 @@ h3{
   background-color:#d2ebf1; 
   padding: 20px;
 }
+
 .col-lg-6 ul li{
   text-align: left;
   font-size: 25px;
   list-style: none;
 
-}
-
-.col-lg-12{
-  background-color: grey;
-  padding-top: 20px;
-  height: 50px;
 }
