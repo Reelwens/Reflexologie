@@ -1,9 +1,15 @@
+.container-fuid{
+  padding: none;
+}
+
 body{
   text-align: center;
 }
 
 h1{
   color: #90ccdb;
+  margin-left: 120px;
+  margin-bottom: 40px;
 }
 
 nav li{
@@ -14,8 +20,11 @@ nav li{
 nav li a {
   display: block;
   color: white;
-  text-decoration: none;
   transition: all 0.3s ease;
+}
+
+.menu li a {
+ text-decoration: none;
 }
 
 .menu > li{
