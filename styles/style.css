@@ -1,12 +1,82 @@
 body{
-  text-align: center;
+  text-align: left;
   font-family: 'Titillium Web', sans-serif;
+  line-height: 25px;
+}
+.clearBoth{
+  clear: both;
+}
+
+img{
+  width: 100%;
+  padding: 0px;
+}
+
+.col-lg-5{
+  text-align: center;
+}
+
+.col-lg-5 img{
+  opacity: 0.7;
+  border: solid #90ccdb 7px;
+  border-radius: 7px;
 }
 
 h1{
   color: #90ccdb;
-  margin-left: 120px;
+  margin-bottom: 80px;
+}
+
+h2{
+  margin-top: 70px;
   margin-bottom: 40px;
+}
+
+h4{
+  margin-top: 45px;
+  font-weight: bold;
+}
+
+.col-lg-12 p{
+  border-bottom: solid black 1px;
+  padding-bottom: 80px;
+  margin-bottom: 70px;
+}
+.col-lg-3 span{
+  background:#90ccdb;
+  color: white;
+  padding: 10px 60px 10px 60px;
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+.col-lg-2 h3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: 20x;
+}
+
+.col-lg-6 ul{
+  padding-left: 0px;
+}
+
+.col-lg-6 ul li{
+  list-style: none;
+}
+
+.trait p{
+  margin-top: 120px;
+  border-bottom: black solid 1px;
+  margin-bottom: 70px;
+}
+
+.col-lg-7 h3{
+  margin-bottom: 35px;
+}
+
+.menu{
+ padding-left: 0px;
+ padding-right: 0px;
 }
 
 nav li{
@@ -25,8 +95,9 @@ nav li a {
 
 .menu > li{
   background:#90ccdb; 
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .menu > li:hover{
@@ -67,7 +138,6 @@ li img{
 	width: 100%;
 	height: 500px;
 	background: #FFF;
-	border: 5px solid #4b5973;
 	overflow: hidden;
 }
 
@@ -77,37 +147,6 @@ li img{
 
 .slider-wrapper .current-slide {
 	display: block;
-}
-
-.slider-shadow {
-	width: 100%;
-	height: 15px;
-	position: relative;
-}
-
-.slider-shadow:after, .slider-shadow:before {
-	content: '';
-	position: absolute;
-	background: #171c24;
-	height: 100%;
-	width: 50%;
-	left: 10px;
-	top: -20px;
-	-webkit-transform: rotate(-4deg);
-	-ms-transform: rotate(-4deg);
-	-o-transform: rotate(-4deg);
-	transform: rotate(-4deg);
-	-webkit-box-shadow: 0 0 15px 8px #171c24;
-	box-shadow: 0 0 15px 8px #171c24;
-}
-
-.slider-shadow:before {
-	right: 10px;
-	left: auto;
-	-webkit-transform: rotate(4deg);
-	-ms-transform: rotate(4deg);
-	-o-transform: rotate(4deg);
-	transform: rotate(4deg);
 }
 
 .slider-wrapper img {
@@ -125,7 +164,7 @@ li img{
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background: rgba(0,0,0,0.65);
+	background:#90ccdb;
 	width: 100%;
 	padding: 10px;
 	color: #FFF;
@@ -144,19 +183,15 @@ li img{
 	-ms-transform: translateY(0);
 	-o-transform: translateY(0);
 	transform: translateY(0);
-	opacity: 1;
+	opacity: 0.5;
 }
 
 
-.slider-wrapper h2 {
-	color: #00c5b9;
-	font-size: 2em;
-	font-weight: 400;
-	margin-bottom: 6px;
-}
 
 .slider-wrapper p {
-	font-size: 1.6em;
+    opacity: 1;
+    font-size: 35px;
+    padding: 50px;
 	font-weight: 300;
 	line-height: 1.4em;
 }
@@ -232,71 +267,5 @@ li img{
  	}
  }
 
-------/* Pacticienne */----
-.row{
-  margin: 0px !important;
-}
 
-h2{
-  padding-top: 40px;
-  font-size: 20px;
-  font-size: 18px;
-  text-align:left;
-  margin-left:60px
-}
-.text{
-  padding: 15px 15px 0px 20px;
-  text-align:left; 
-  font-size: 16px;
-  margin-left:60px; 
-  margin-left: none;
-  margin-top: 50px;
-  background-color:#d2ebf1;
-  line-height: 25px;
-}
 
-.col-lg-4{
-  padding-left: 0px;
-}
-
-.col-lg-4 img{
-  margin-top: 50px;
-  width: 90%;
-  border: solid #d2ebf1;
-  border-radius: 20px;
-}
-
-.col-lg-10{
-  margin-top: 100px;
-  margin-left: 220px;
-  width:  80%;
-  height:4px;
-  background-color:#90ccdb;
-}
-
-.col-lg-9 img{
-  margin-left: 70px;
-  margin-top: 100px;
-  width: 100%
-}
-
-h3{
-  padding-top:50px;
-}
-
-.col-lg-6 ul{
-  margin-top: 20px;
-  background-color:#d2ebf1; 
-  padding: 20px;
-}
-
-.col-lg-6 ul li{
-  text-align: left;
-  font-size: 25px;
-  list-style: none;
-
-}
-
-p{
- margin-top: 50px;
-}
