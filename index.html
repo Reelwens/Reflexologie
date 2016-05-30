@@ -9,20 +9,22 @@
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
 </head>
 <body>
- <div class="container-fluid">
+
    <header>
     <div class="container">
-     <div class="col-lg-3 col-lg-offset-4">
-       <img src="images/Lotus.png" alt="logo" style="height:150px; margin-top:10px;">
-       </div>
-         <div class="col-lg-5 col-lg-offset-3">
-           <h1>Lydia Villot Petriacq</h1>
-         </div>
-         </div>
+     <div class="col-lg-4"></div>
+     <div class="col-lg-4 text-center">
+       <img src="images/Lotus.png" alt="logo" id="lotus" style="margin:center;">
+     </div>
+     <div class="col-lg-4"></div>
+     <div class="col-lg-12 text-center">
+       <h1 id="titre">Lydia Villot Petriacq</h1>
+     </div>
+    </div>
        <section id="topbar">
          <nav id="navbar">
            <ul class="menu" >
-             <li class="col-lg-2"><a href="#" title="Accueil">ACCEUIL</a></li>
+             <li class="col-lg-2"><a href="#" title="Accueil">ACCUEIL</a></li>
              <li class="col-lg-3"><a href="#Reflexologie" title="La Reflexologie">LA REFLEXOLOGIE</a></li>
              <li class="col-lg-2"><a href="#Pause detente" title="Pause Détente">PAUSE DETENTE</a></li>
              <li class="col-lg-3"><a href="#Practicienne" title="Votre Practicienne">VOTRE PRACTICIENNE</a></li>
@@ -32,7 +34,7 @@
        </section>
    </header>
    	<section id="slider">
-		<ul class="slider-wrapper">
+		<ul class="slider-wrapper" id="sliderUl">
 		<li class="current-slide">
 			<img src="images/Header-img.png">
 
@@ -73,11 +75,11 @@ d’autroguérison du corps</p>
 		<div class="slider-shadow"></div>
 		
 		
-		<ul id="control-buttons" class="control-buttons"></ul>
+		<!-- <ul id="control-buttons" class="control-buttons"></ul> -->
 	</section>
 
- </div>
- <div class="container">
+ 
+ <div class="container" id="mainContainer">
   <section id="Reflexologie">
    <div class="col-lg-4">
           <h2><strong>La réfléxologie, c'est quoi ?</strong></h2>
@@ -110,7 +112,7 @@ d’autroguérison du corps</p>
     <li>-Troubles respiratoires,</li>
     <li>-Migraines, névralgies,</li>
     <li>-Tensions musculaires,</li>
-    <li>ect</li>
+    <li>etc.</li>
   </ul>
 </div>
 <div class="clearBoth"></div>
@@ -140,33 +142,41 @@ d’autroguérison du corps</p>
     <h2><strong>Pause détente</strong></h2>
   </div>
   <div class="clearBoth"></div>
-  <div class="col-lg-4">
-    <img src="images/imgC1.png" alt="imgC1">
-  </div>
-  <div class="col-lg-4">
-    <img src="images/imgC2.png" alt="imgC2">
-  </div>
-  <div class="col-lg-4">
-    <img src="images/imgC3.png" alt="imgC3">
-  </div>
-  <div class="col-lg-4">
-    <img src="images/imgC4.png" alt="imgC4">
-  </div>
-  <div class="col-lg-4">
-    <img src="images/imgC5.png" alt="imgC5">
-  </div>
-  <div class="col-lg-4">
-    <img src="images/imgC6.png" alt="imgC6">
-  </div>
-  <div class="col-lg-4">
-    <img src="images/imgC7.png" alt="imgC7">
-  </div>
-  <div class="col-lg-4">
-    <img src="images/imgC8.png" alt="imgC8">
-  </div>
-  <div class="col-lg-4">
-    <img src="images/imgC9.png" alt="imgC9">
-  </div>
+
+    <div class="col-lg-4 paddingImg">
+      <img src="images/imgC1.png" alt="imgC1">
+    </div>
+    <div class="col-lg-4 paddingImg">
+      <img src="images/imgC2.png" alt="imgC2">
+    </div>
+    <div class="col-lg-4 paddingImg">
+      <img src="images/imgC3.png" alt="imgC3">
+    </div>
+    
+    <div class="space col-lg-12"></div>
+    
+    <div class="col-lg-4 paddingImg">
+      <img src="images/imgC4.png" alt="imgC4">
+    </div>
+    <div class="col-lg-4 paddingImg">
+      <img src="images/imgC5.png" alt="imgC5">
+    </div>
+    <div class="col-lg-4 paddingImg">
+      <img src="images/imgC6.png" alt="imgC6">
+    </div>
+  
+    <div class="space col-lg-12"></div>
+  
+    <div class="col-lg-4 paddingImg">
+      <img src="images/imgC7.png" alt="imgC7">
+    </div>
+    <div class="col-lg-4 paddingImg">
+      <img src="images/imgC8.png" alt="imgC8">
+    </div>
+    <div class="col-lg-4 paddingImg">
+      <img src="images/imgC9.png" alt="imgC9">
+    </div>
+    
   <div class="clearBoth"></div>
   <div class="trait" class="col-lg-12">
     <p></p>
