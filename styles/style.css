@@ -214,3 +214,44 @@ input[type=submit]{
   font-size: 16px;
   outline:none;
 }
+
+
+/* ------- Footer ------ */
+
+#footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #2e2e2e;
+  color: #b5b5b5;
+}
+
+#footer p {
+  
+  line-height: normal;
+}
+
+#lotusFooter {
+  background-image: url(../images/LotusFooter.png);
+  display: block;
+  height: 121px;
+  width: 140px;
+  background-position: 0px -121px;
+}
+
+#lotusFooter:hover {
+  background-image: url(../images/LotusFooter.png);
+  background-position: 0px 0px;
+}
+
+.rightBar {
+  border-right: 1px solid #90CCDB;
+}
+
+#footerSpace {
+  padding-top: 30px;
+}
+
+#copyright {
+  padding-top: 20px;
+  color: #90CCDB;
+}
