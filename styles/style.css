@@ -1,8 +1,10 @@
 body{
+  background-color: #fafafa;
   text-align: left;
   font-family: 'Titillium Web', sans-serif;
   line-height: 25px;
 }
+
 .clearBoth{
   clear: both;
 }
@@ -13,7 +15,7 @@ img#lotus{
 }
 
 img{
-  width: 100%
+  width: 100%;
 }
 
 .space {
@@ -132,7 +134,7 @@ menu > li > a{
 }
 
 #mainContainer{
-  background-color: #fafafa;
+  background-color: white;
 }
 
 .paddingImg{
