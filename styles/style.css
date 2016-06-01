@@ -188,9 +188,6 @@ menu > li > a{
     text-align:center;
 }
 
-.carousel-indicators{
- margin-top: 5px; 
-}
 
 .transition-timer-carousel-progress-bar {
   height: 3px;
