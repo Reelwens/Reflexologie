@@ -3,6 +3,7 @@ body{
   text-align: left;
   font-family: 'Titillium Web', sans-serif;
   line-height: 25px;
+  color: grey;
 }
 
 .clearBoth{
@@ -44,17 +45,22 @@ h1#titre{
 }
 
 #titre1{
+  text-align: right;
   margin-top: 100px;
   text-align: center;
-  border-bottom: 1x solid #90ccdb;
+  padding: 0px 0px 10px 0px;
+  border-bottom: 1px solid #90ccdb;
   color: #90ccdb;
   margin-bottom: 50px;
 }
 
 
-h4{
+.text h4{
   margin-top: 45px;
+  margin-bottom: 20px;
   font-weight: bold;
+  color: #90ccdb;
+  font-size:20px;
 }
 
 .col-lg-12 p{
@@ -62,6 +68,7 @@ h4{
   padding-bottom: 80px;
   margin-bottom: 70px;
   font-size: 17px;
+  text-align: center;
 }
 .buttonReflexo{
   background:#90ccdb;
@@ -79,6 +86,7 @@ h4{
   margin-top: 50px;
   margin-bottom: 50px;
   font-weight: 20x;
+  color: #90ccdb;
 }
 
 .col-lg-6 ul{
@@ -141,13 +149,13 @@ menu > li > a{
 
 #mainContainer{
   background-color: white;
+  padding: 0px;
 }
 
 .paddingImg{
   padding-left: 5px;
   padding-right: 5px;
 }
-
 
 
 /** ---------------------------------------
@@ -166,6 +174,11 @@ menu > li > a{
 .control-buttons{
     text-align:center;
 }
+
+.carousel-indicators{
+ margin-top: 5px; 
+}
+
 .transition-timer-carousel-progress-bar {
     height: 3px;
     width: 0;
@@ -180,6 +193,25 @@ menu > li > a{
 
 img{
     width: 100%;
+}
+.carousel-caption h2{
+  margin-bottom: 40px;
+}
+
+.carousel-caption a{
+  background: #90ccdb;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px; 
+  font-size: 20px;
+}
+
+.carousel-caption a:hover{
+  text-decoration: none;
+  color: #90ccdb;
+  background: white;
 }
 
 
@@ -204,6 +236,7 @@ input[type=email],input[type=text], input[type=tel], textarea{
   margin-top: 40px;
   float: left;
   outline:none;
+  margin-bottom: 10px;
 }
 
 
