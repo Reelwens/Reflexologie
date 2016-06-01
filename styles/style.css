@@ -39,6 +39,10 @@ h1#titre{
   color: #90ccdb;
 }
 
+.headerContainer {
+  padding: 0px;
+}
+
 .col-lg-4 h2{
   margin-bottom: 40px;
   color: #90ccdb;
@@ -73,7 +77,13 @@ h1#titre{
 .buttonReflexo{
   background:#90ccdb;
   color: white;
-  padding: 10px 60px 10px 60px;
+  padding: 10px 40px;
+}
+
+.buttonReflexo:hover{
+  background:none;
+  color: #90ccdb;
+  border: 1px solid #90ccdb;
 }
 
 .text {
@@ -130,9 +140,13 @@ nav li a {
 
 .menu > li{
   background:white; 
+  text-align: center;
+}
+
+.menu > li a{
   padding-top: 20px;
   padding-bottom: 20px;
-  text-align: center;
+  display: inline-block;
 }
 
 .menu > li:hover{
@@ -163,13 +177,12 @@ menu > li > a{
  ----------------------------------------*/
 
 #slider{
-    width: 100%; /*largeur slider */
-    
+  width: 100%; /*largeur slider */
 }
 
 .carousel-inner .item{
-    text-align: center;
-    height: 300px;/* modifier ici*/
+  text-align: center;
+  height: 300px;/* modifier ici*/
 }
 .control-buttons{
     text-align:center;
@@ -180,38 +193,38 @@ menu > li > a{
 }
 
 .transition-timer-carousel-progress-bar {
-    height: 3px;
-    width: 0;
-    margin: 0 0 0 0;
-    border: none;
-    z-index: 11;
-    position: relative;
+  height: 3px;
+  width: 0;
+  margin: 0 0 0 0;
+  border: none;
+  z-index: 11;
+  position: relative;
 }
 .carousel-control{
-    z-index: 11;
+  z-index: 11;
 }
 
 img{
     width: 100%;
 }
 .carousel-caption h2{
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .carousel-caption a{
   background: #90ccdb;
-  padding: 10px;
+  padding: 5px 15px;
   margin-bottom: 20px;
   text-decoration: none;
-  color: white;
-  border-radius: 20px; 
+  color: white; 
   font-size: 20px;
 }
 
 .carousel-caption a:hover{
   text-decoration: none;
   color: #90ccdb;
-  background: white;
+  background: none;
+  border: 1px solid #90ccdb;
 }
 
 
@@ -279,7 +292,6 @@ input[type=submit]:hover{
 }
 
 #footer p {
-  
   line-height: normal;
 }
 
@@ -296,8 +308,12 @@ input[type=submit]:hover{
   background-position: 0px 0px;
 }
 
-.rightBar {
-  border-right: 1px solid #90CCDB;
+@media screen and (min-width: 992px) {
+
+  .rightBar {
+    border-right: 1px solid #90CCDB;
+  }
+
 }
 
 #footerSpace {
