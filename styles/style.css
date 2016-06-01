@@ -34,16 +34,21 @@ img{
 h1#titre{
   color: #90ccdb;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 30px; 
+  color: #90ccdb;
 }
 
-h2{
+.col-lg-4 h2{
   margin-bottom: 40px;
   color: #90ccdb;
 }
 
 #titre1{
-  margin-top: 70px;
+  margin-top: 100px;
+  text-align: center;
+  border-bottom: 1x solid #90ccdb;
+  color: #90ccdb;
+  margin-bottom: 50px;
 }
 
 
@@ -70,7 +75,7 @@ h4{
 }
 
 
-.col-lg-2 h3{
+.col-lg-3 h3{
   margin-top: 50px;
   margin-bottom: 50px;
   font-weight: 20x;
@@ -101,6 +106,7 @@ ul li{
 
 nav li{
   border-top: solid 2px #90ccdb;
+  border-bottom: solid 5px #90ccdb;
   list-style: none;
   transition: all 0.3s linear;
 }
@@ -149,7 +155,7 @@ menu > li > a{
  ----------------------------------------*/
 
 #slider{
-    width: 70%; /*largeur slider */
+    width: 100%; /*largeur slider */
     
 }
 
@@ -179,6 +185,10 @@ img{
 
 /* -------Contact ------ */
 
+#Contact{
+  margin-bottom: 100px;
+}
+
 form{
   margin-top: 10px;
 }
@@ -198,25 +208,33 @@ input[type=email],input[type=text], input[type=tel], textarea{
 
 
 textarea{
-  height: 70px;
+  height: 90px;
   font-size: 15px;
-  width: 100%;
-  margin-bottom: 20px;
+  width: 93%;
   border: 2px solid #90CCDB;
   background: none;
 }
 
+textarea::-webkit-input-placeholder {
+  font-size: 17px;
+}
+
 
 input[type=submit]{
-  width: 110px;
+  width: 80%;
   height: 45px;
   background: none;
   color: #90CCDB;
   border: 2px solid #90CCDB;
   font-size: 16px;
   outline:none;
+  margin-top: 20px;
 }
 
+input[type=submit]:hover{
+  background: #90CCDB;
+  color: white;
+}
 
 /* ------- Footer ------ */
 
