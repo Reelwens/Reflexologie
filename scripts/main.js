@@ -58,3 +58,26 @@ jQuery(document).ready(function ($) {
                 });
             });
 /************************************************************************************************************** fin grille ***********************************************************************************************************************************/
+
+/************************************************************************************************************** topbar ***********************************************************************************************************************************/
+$(document).ready(function () {
+
+var menu = $('#navbar');
+var origOffsetY = menu.offset().top;
+
+function scroll() {
+    if ($(window).scrollTop() >= origOffsetY) {
+        $('#navbar').addClass('navbar-fixed-top');
+        $('#navbar').addClass('menu-padding');
+    } else {
+        $('#navbar').removeClass('navbar-fixed-top');
+        $('#navbar').removeClass('menu-padding');
+    }
+
+
+   }
+
+  document.onscroll = scroll;
+
+});
+

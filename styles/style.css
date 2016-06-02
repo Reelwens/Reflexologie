@@ -19,6 +19,15 @@ img{
   width: 100%;
 }
 
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 165px;
+  z-index: 9999;
+  width: 78%;
+  height: 50px;
+}
+
 .space {
   padding-bottom: 10px;
 }
@@ -122,6 +131,8 @@ ul li{
  padding-right: 0px;
 }
 
+
+
 nav li{
   border-top: solid 2px #90ccdb;
   border-bottom: solid 5px #90ccdb;
@@ -178,6 +189,11 @@ menu > li > a{
 
 #slider{
   width: 100%; /*largeur slider */
+}
+
+
+.carousel-indicators{
+    margin-left: 0;    
 }
 
 .carousel-inner .item{
