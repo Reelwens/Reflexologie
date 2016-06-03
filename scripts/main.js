@@ -1,9 +1,14 @@
-/************************************************************************************************************** debut slider ***********************************************************************************************************************************/
+/***************************************
+    ****************************************
+    -            DEBUT SLIDER             -
+    ****************************************
+    ***************************************/
+
 $(document).ready(function(){
 	var percent = 0,
-	interval = 20,//it takes about 6s, interval=20 takes about 4s
-	$bar = $('.transition-timer-carousel-progress-bar'),
-	$crsl = $('#myCarousel');
+			interval = 20,//it takes about 6s, interval=20 takes about 4s
+			$bar = $('.transition-timer-carousel-progress-bar'),
+			$crsl = $('#myCarousel');
 	$('.carousel-indicators li, .carousel-control').click(function (){$bar.css({width:0.5+'%'});});
 	/*line above just for showing when controls are clicked the bar goes to 0.5% to make more friendly, 
 	if you want when clicked set bar empty, change on width:0.5 to width:0*/
@@ -22,62 +27,81 @@ $(document).ready(function(){
 	var barInterval = setInterval(progressBarCarousel, interval);//set interval to progressBarCarousel function
 	if (!(/Mobi/.test(navigator.userAgent))) {//tests if it isn't mobile
 		$crsl.hover(function(){
-					clearInterval(barInterval);
-				},
-				function(){
-					barInterval = setInterval(progressBarCarousel, interval);
-				}
-		);
+			clearInterval(barInterval);
+		},
+								function(){
+			barInterval = setInterval(progressBarCarousel, interval);
+		}
+							 );
 	}
 });
-/************************************************************************************************************** fin slider ***********************************************************************************************************************************/
+
+/***************************************
+    ****************************************
+    -             FIN SLIDER              -
+    ****************************************
+    ***************************************/
 
 
-/************************************************************************************************************** debut grille ***********************************************************************************************************************************/
+/***************************************
+    ****************************************
+    -            DEBUT GRILLE             -
+    ****************************************
+    ***************************************/
 
 
 jQuery(document).ready(function ($) {
-                $(".gridder").gridderExpander({
-                    scrollOffset: 60,
-                    scrollTo: "panel", // "panel" or "listitem"
-                    animationSpeed: 400,
-                    animationEasing: "easeInOutExpo",
-                    onStart: function () {
-                        console.log("Gridder Inititialized");
-                    },
-                    onExpanded: function (object) {
-                        console.log("Gridder Expanded");
-                        $(".carousel").carousel();
-                    },
-                    onChanged: function (object) {
-                        console.log("Gridder Changed");
-                    },
-                    onClosed: function () {
-                        console.log("Gridder Closed");
-                    }
-                });
-            });
-/************************************************************************************************************** fin grille ***********************************************************************************************************************************/
+	$(".gridder").gridderExpander({
+		scrollOffset: 60,
+		scrollTo: "panel", // "panel" or "listitem"
+		animationSpeed: 400,
+		animationEasing: "easeInOutExpo",
+		onStart: function () {
+			console.log("Gridder Inititialized");
+		},
+		onExpanded: function (object) {
+			console.log("Gridder Expanded");
+			$(".carousel").carousel();
+		},
+		onChanged: function (object) {
+			console.log("Gridder Changed");
+		},
+		onClosed: function () {
+			console.log("Gridder Closed");
+		}
+	});
+});
 
-/************************************************************************************************************** topbar ***********************************************************************************************************************************/
+/***************************************
+    ****************************************
+    -              FIN GRILLE              -
+    ****************************************
+    ***************************************/
+
+/***************************************
+    ****************************************
+    -               TOPBAR                 -
+    ****************************************
+    ***************************************/
+
 $(document).ready(function () {
 
-var menu = $('#navbar');
-var origOffsetY = menu.offset().top;
+	var menu = $('#navbar');
+	var origOffsetY = menu.offset().top;
 
-function scroll() {
-    if ($(window).scrollTop() >= origOffsetY) {
-        $('#navbar').addClass('navbar-fixed-top');
-        $('#navbar').addClass('menu-padding');
-    } else {
-        $('#navbar').removeClass('navbar-fixed-top');
-        $('#navbar').removeClass('menu-padding');
-    }
+	function scroll() {
+		if ($(window).scrollTop() >= origOffsetY) {
+			$('#navbar').addClass('navbar-fixed-top');
+			$('#navbar').addClass('menu-padding');
+		} else {
+			$('#navbar').removeClass('navbar-fixed-top');
+			$('#navbar').removeClass('menu-padding');
+		}
 
 
-   }
+	}
 
-  document.onscroll = scroll;
+	document.onscroll = scroll;
 
 });
 
