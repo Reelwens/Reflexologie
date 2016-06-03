@@ -5,10 +5,10 @@
   <title>Reflexologie - Lydia Villot Petriacq</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Armata" rel="stylesheet" type="text/css">
+  <link href="jquery/css/jquery.gridder.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link href="http://fonts.googleapis.com/css?family=Armata" rel="stylesheet" type="text/css">
-    <link href="jquery/css/jquery.gridder.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/style.css">
 
 </head>
 <body>
@@ -100,8 +100,8 @@
   <section id="Reflexologie">
    <div class="col-lg-5 col-lg-offset-3">
           <h2 id="titre1"><strong>La réfléxologie, c'est quoi ?</strong></h2>
-        </div>
-        <div class="col-lg-12 text">
+   </div>
+        <div class="col-lg-12 text centerText trait">
           <p>
            La réflexologie est une science qui part du principe qu’il y a dans les pieds et les oreilles, la représentation miniaturisée du corps humain.
            C’est une pratique manuelle qui permet, par simple pression du pouce, des doigts ou d’une tige auriculaire sur un point particulier du pied ou de l’oreille, une action indirecte sur un organe ou sur certaines parties du corps.
@@ -171,12 +171,15 @@
   <!-- **************************************************************************************************************************************************************** debut pause ***************** *************************************************************** ********************************************************************************************************************************-->
    
 <section id="PauseDetente">
-  <div class="trait" class="col-lg-5">
+  <div class="trait col-lg-12">
     <p></p>
   </div>
+  
   <div class="col-lg-4">
-    <h2><strong>Pause détente</strong></h2>    
-		<div class="container">
+    <h2><strong>Pause détente</strong></h2>
+  </div>
+  
+  <div class="col-lg-12 text-center">
             <ul class="gridder">
                     <div>
                     <li class="gridder-list" data-griddercontent="#gridder-content-1">
@@ -402,9 +405,6 @@
                     </div>
                 </div>
             </div>
-          
-
-		</div>  
     <p></p>
   </div>
 </section> 
@@ -418,7 +418,7 @@
     <h2><strong>Votre Practicienne</strong></h2>
   </div>
    <div class="clearBoth"></div>
-    <div class="col-lg-7 text">
+    <div class="col-sm-7 text">
     <p>La réflexologie est une science qui part du principe qu’il y a dans les pieds et les oreilles, la représentation miniaturisée du corps humain.
 C’est une pratique manuelle qui permet, par simple pression du pouce, des doigts ou da réflexologie est une science qui part du principe qu’il y a dans les pieds et les oreilles, la représentation miniaturisée du corps humain.
 C’est une pratique manuelle qui permet, par simple pression du pouce, des doigts </p>
@@ -432,7 +432,7 @@ C’est une pratique manuelle qui permet, par simple pression du pouce, des doig
    <li>Volutpat ante elit a tortor. Cum</li>
  </ul>
   </div>
-  <div class="col-lg-5">
+  <div class="col-sm-5">
     <img src="images/portrait.png">
   </div>
 </section> 
@@ -441,7 +441,7 @@ C’est une pratique manuelle qui permet, par simple pression du pouce, des doig
 
 <div class="clearBoth"></div>
 
-<div class="trait" class="col-lg-12">
+<div class="trait col-lg-12">
     <p></p>
   </div>
   
@@ -458,30 +458,32 @@ C’est une pratique manuelle qui permet, par simple pression du pouce, des doig
    <div class="clearBoth"></div>
    
     <form method="post" action="contact.php"> <!-- Début des champs formulaire -->
-     
-      <div class="col-lg-4 col-lg-offset-2">
+    
+  <div class="row">   
+      <div class="col-lg-4 col-lg-offset-2 col-sm-6 text-center">
         <label for="name"></label>
        <input type="text" name="name" placeholder="Prénom" maxlength="30" />
       </div>
       
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-sm-6 text-center">
         <label for="name"></label>
-       <input type="text" name="name" placeholder="Nom" maxlength="15"/>
+       <input type="text" name="name" placeholder="Nom" maxlength="30"/>
       </div>
+      <div class="col-lg-2"></div>
       
-      <div class="clearBoth"></div>
-      
-      <div class="col-lg-4 col-lg-offset-2">
-       <label for="email"></code>
+  </div>
+  <div class="row">
+      <div class="col-lg-4 col-lg-offset-2 col-sm-6 text-center">
+       <label for="email"></input>
        <input type="email" name="email" placeholder="E-mail" maxlength="50"/>
       </div>
       
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-sm-6 text-center">
         <label for="phone"></label>
-       <input type="tel" name="phone" placeholder="Numéro de téléphone"/code>
+       <input type="tel" name="phone" placeholder="Numéro de téléphone"</input>
       </div>
-      
-      <div class="clearBoth"></div>
+      <div class="col-lg-2"></div>
+  </div>
       
       <div class="col-lg-8 col-lg-offset-2">
         <label for="comment"></label>

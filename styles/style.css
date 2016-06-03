@@ -85,7 +85,7 @@ img{
   text-align: center;
 }
 
-.col-lg-5 img{
+.col-sm-5 img{
   opacity: 0.7;
   border: solid #90ccdb 7px;
 }
@@ -125,8 +125,7 @@ h1#titre{
   font-size:20px;
 }
 
-.col-lg-12 p{
-  border-bottom: solid black 1px;
+.centerText p{
   padding-bottom: 80px;
   margin-bottom: 70px;
   font-size: 17px;
@@ -167,7 +166,7 @@ ul li{
 
 .trait p{
   margin-top: 80px;
-  border-bottom: black solid 1px;
+  border-bottom: 1px solid #90ccdb;
   margin-bottom: 50px;
 }
 
@@ -384,7 +383,6 @@ input[type=email],input[type=text], input[type=tel], textarea{
   color: #515151;
   font-size: 16px;
   margin-top: 40px;
-  float: left;
   outline:none;
   margin-bottom: 10px;
 }
