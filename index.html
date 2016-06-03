@@ -1,612 +1,612 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <title>Reflexologie - Lydia Villot Petriacq</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
-    <link href="http://fonts.googleapis.com/css?family=Armata" rel="stylesheet" type="text/css">
-    <link href="jquery/css/jquery.gridder.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
-
-  </head>
-  <body>
-   
-    <!-- ***********************************
-    ****************************************
-    -          DEBUT DU HEADER             -
-    ****************************************
-    ************************************ -->
-    
-    <header>
-      <div class="container headerContainer">
-        <div class="row">
-          <div class="col-md-4 col-sm-3"></div>
-          <div class="col-md-4 col-sm-6 text-center">
-            <img src="images/Lotus.png" alt="logo" id="lotus" style="margin:center;">
-          </div>
-          <div class="col-md-4 col-sm-3"></div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <h1 id="titre">Lydia Villot Petriacq</h1>
-          </div>
-        </div>
-
-        <section id="topbar">
-          <nav id="navbar">
-            <ul class="menu">
-              <li class="col-sm-3">
-                <a href="#" title="Accueil">ACCUEIL</a>
-              </li>
-              <li class="col-sm-3">
-                <a href="#PauseDetente" title="Pause Détente">PAUSE DETENTE</a>
-              </li>
-              <li class="col-sm-3">
-                <a href="#Practicienne" title="Votre Practicienne">VOTRE PRACTICIENNE</a>
-              </li>
-              <li class="col-sm-3">
-                <a href="#" title="Contact">CONTACT</a>
-              </li>
-            </ul>
-          </nav>
-        </section>
-      </div>
-    </header>
-    
-    <!-- ***********************************
-    ****************************************
-    -           FIN DU HEADER              -
-    ****************************************
-    ************************************ -->
-
-    <div class="container" id="mainContainer">
-   
-    <!-- ***********************************
-    ****************************************
-    -          DEBUT DU SLIDER             -
-    ****************************************
-    ************************************ -->
-
-      <section id="slider">
-        <div id="myCarousel" class="carousel slide myCarousel" data-interval="false" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol> 
-          <!-- Carousel items -->
-          <div class="carousel-inner">
-            <div class="active item">
-              <img src="images/Header-img.png">
-              <!--put img inside itens like this-->
-              <!--<img src="" alt="...">-->
-              <div class="container">
-                <div class="carousel-caption">
-                  <h2>La réflexologie vise à mobiliser les processus d'autoguérison du corps</h2>
-                  <a href="#" title="Prendre contact">Prendre contact</a>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img src="images/imgC2.png">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h2>La réflexologie vise à mobiliser les processus d'autoguérison du corps</h2>
-                  <a href="#" title="Prendre contact">Prendre contact</a>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img src="images/imgC1.png">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h2>La réflexologie vise à mobiliser les processus d'autoguérison du corps</h2>
-                  <a href="#" title="Prendre contact">Prendre contact</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr class="transition-timer-carousel-progress-bar" />
-
-        </div>
-
-
-      </section> <!-- Fin section slider -->
-
-    <!-- ***********************************
-    ****************************************
-    -          FIN DU SLIDER              -
-    ****************************************
-    ************************************ -->
-
-    <!-- ***********************************
-    ****************************************
-    -         DEBUT REFLEXOLOGIE           -
-    ****************************************
-    ************************************ -->
-
-
-      <section id="Reflexologie">
-        <div class="col-lg-5 col-lg-offset-3">
-          <h2 id="titre1"><strong>La réfléxologie, c'est quoi ?</strong></h2>
-        </div>
-        <div class="col-lg-12 text centerText trait">
-          <p>
-            La réflexologie est une science qui part du principe qu’il y a dans les pieds et les oreilles, la représentation miniaturisée du corps humain.
-            C’est une pratique manuelle qui permet, par simple pression du pouce, des doigts ou d’une tige auriculaire sur un point particulier du pied ou de l’oreille, une action indirecte sur un organe ou sur certaines parties du corps.
-            La réflexologie est une technique qui aide l’organisme à retrouver son équilibre et crée les conditions favorables à l’autoguérison.
-          </p>
-        </div>
-        <div class="col-lg-12">
-        </div>
-        <div class="row">
-          <div class="col-xs-6 text-right">
-             <span class="buttonReflexo" onclick="affiche_contenu()">Pourquoi ?</span>
-   <div id="cible" style="display:none;">
-    <p>Un texte quelconque.<br>Vraiment quelconque.</p>
-    </div>
-</div>
-<div class="col-xs-6 text-left">
-  <span class="buttonReflexo" onclick="affiche_contenu1()">Pour qui ?</span>
-  <div id="cible1" style="display:none;">
-    <p>Un texte quelconque.<br>Vraiment quelconque.</p>
-    </div>
-        </div>
-        <div class="clearBoth"></div>
-
-        <div class="col-lg-3 ">
-          <h3>Dans quel cas ?</h3>
-        </div>
-
-        <div class="clearBoth"></div>
-
-        <div class="col-lg-6 text">
-          <p>La réflexologie stimule la capacité d'autoguérison en cas de:</p>
-          <ul>
-            <li> Stress, surmenage, anxiété, nervosité, tensions, énergies négatives</li>
-            <li>Troubles du sommeil,</li>
-            <li>Troubles respiratoires,</li>
-            <li>Migraines, névralgies,</li>
-            <li>Tensions musculaires,</li>
-            <li>etc.</li>
-          </ul>
-        </div>
-
-        <div class="clearBoth"></div>
-
-        <div class="col-lg-3">
-          <h3>Les effets :</h3>
-        </div>
-
-        <div class="clearBoth"></div>
-
-        <div class="col-lg-6 text">
-          <ul>
-            <li>Libre circulation de l'énergie vitale,</li>
-            <li> Relaxe, dynamise l’organisme d’où une amélioration de ses fonctions, </li>
-            <li> Soulage les douleurs - Réduit l’anxiété (enfants hyper actifs ou anxieux), </li>
-            <li> Décontract les muscles et le mental (sportifs), </li>
-            <li> Soulage les tensions physiques et nerveuses, </li>
-            <li> Détend, apporte une profonde relaxation,</li>
-            <li> Améliore la circulation sanguine,</li>
-            <li>Favorise l'élimination des toxines,</li>
-            <li> Améliore les fonctions digestives,</li>
-            <li> Renforce le système immunitaire,</li>
-            <li> Régule les troubles du sommeil</li>
-          </ul>
-        </div>
-      </section> <!-- Fin section reflexologie -->
-
-      <div class="clearBoth"></div>
-
-    <!-- ***********************************
-    ****************************************
-    -          FIN REFLEXOLOGIE            -
-    ****************************************
-    ************************************ -->
-
-    <!-- ***********************************
-    ****************************************
-    -        DEBUT PAUSE DETENTE           -
-    ****************************************
-    ************************************ -->
-
-      <section id="PauseDetente">
-        <div class="trait col-lg-12">
-          <p></p>
-        </div>
-
-        <div class="col-lg-4">
-          <h2><strong>Pause détente</strong></h2>
-        </div>
-
-        <div class="col-lg-12 text-center">
-          <ul class="gridder">
-            <div>
-              <li class="gridder-list" data-griddercontent="#gridder-content-1">
-                <img src="images/imgC1.png" class="img-responsive" />
-              </li>
-
-              <li class="gridder-list" data-griddercontent="#gridder-content-2">
-                <img src="images/imgC2.png" class="img-responsive" />
-              </li>
-
-              <li class="gridder-list" data-griddercontent="#gridder-content-3">
-                <img src="images/imgC3.png" class="img-responsive" />
-              </li></div>
-            <div>
-
-              <li class="gridder-list" data-griddercontent="#gridder-content-4">
-                <img src="images/imgC4.png" class="img-responsive" />
-              </li>
-
-              <li class="gridder-list" data-griddercontent="#gridder-content-5">
-                <img src="images/imgC5.png" class="img-responsive" />
-              </li>
-
-              <li class="gridder-list" data-griddercontent="#gridder-content-6">
-                <img src="images/imgC6.png" class="img-responsive" />
-              </li></div>
-
-            <div>
-              <li class="gridder-list" data-griddercontent="#gridder-content-7">
-                <img src="images/imgC7.png" class="img-responsive" />
-              </li>
-
-              <li class="gridder-list" data-griddercontent="#gridder-content-8">
-                <img src="images/imgC8.png" class="img-responsive" />
-
-              <li class="gridder-list" data-griddercontent="#gridder-content-9">
-                <img src="images/imgC9.png" class="img-responsive" />
-              </li>
-            </div>
-          </ul>
-          <div id="gridder-content-1" class="gridder-content">
-            <div class="row">
-              <div class="col-sm-6">
-                <img src="images/imgC1.png" class="img-responsive" />
-              </div>
-              <div class="col-sm-6">
-                <h2>Réflexologie auriculaire</h2>
-                <p>Il existe, selon la conception chinoise, au niveau du pavillon auriculaire, une projection des
-                  différentes parties du corps et des organes. Chaque oreille compte plus de points, ou zones
-                  réflexes, qui sont associés aux différentes parties du corps.
-                  La réflexologie auriculaire est une réflexologie par l'oreille. C'est une technique qui consiste à
-                  utiliser le pavillon de l'oreille, par stimulation de points ou zones réflexes.</p>
-
-                <p>Les origines, de l'auriculothérapie,  remontent aussi loin que la réflexologie elle-même. Indiens,
-                  Egyptiens et Chinois pratiquaient cette technique depuis  l'antiquité. Hyppocrate soignait, avec
-                  succès, certains types d'impuissance par petites saignées sur la zone auriculaire.</p>
-
-                <p>L'acquisition des règles de base, de l'auriculothérapie chinoise, permet dès les premiers signes
-                  d'un déséquilibre, d'harmoniser le fonctionnement du corps, en stimulant les zones réflexes
-                  appropriées, et donc de soulager et de maintenir le corps en bonne santé.</p>
-
-                <p>La réflexologie auriculaire est particulièrement efficace, dans tous les désordres fonctionnels, et
-                  notamment pour les troubles du système nerveux (insomnie, stress),  digestifs, pour la prise de
-                  poids, l'asthme, les allergies,  la dépression, la gynécologique, les phobies,  ...</p>
-
-              </div>
-            </div>
-          </div>
-          <div id="gridder-content-2" class="gridder-content">
-            <div class="row">
-              <div class="col-sm-6">
-                <img src="images/imgC2.png" class="img-responsive" />
-              </div>
-              <div class="col-sm-6">
-                <h2>Item 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-              </div>
-            </div>
-          </div>
-          <div id="gridder-content-3" class="gridder-content">
-            <div class="row">
-              <div class="col-sm-6">
-                <img src="images/imgC3.png" class="img-responsive" />
-              </div>
-              <div class="col-sm-6">
-                <h2>Item 3</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-              </div>
-            </div>
-          </div>
-          <div id="gridder-content-4" class="gridder-content">
-            <div class="row">
-              <div class="col-sm-6">
-                <img src="images/imgC4.png" class="img-responsive" />
-              </div>
-              <div class="col-sm-6">
-                <h2>LES GUASHAS</h2>
-                <p>Une technique ancestrale adaptée au monde moderne.
-                  On peut traduire Guasha par "faire sortir la maladie par frottement". Le guasha consiste à frotter,
-                  avec un instrument à bord lisse, la surface de la peau, là où réside une lésion sous-cutanée, ou un
-                  déséquilibre. C'est une méthode relaxante et agréable. Le guasha permet, pour un bénéfice
-                  immédiat et durable, de "chasser le vent", de réduire l'inflammation, d'éliminer le froid, et de
-                  soulager la douleur, qu'elle soit superficielle ou profonde.</p>
-                <p>Le massage guasha est utilisé pour de nombreux problèmes de santé, aigus et chroniques, aussi
-                  variés que : rhume, grippe, mal de tête, indigestion, vertige, douleur articulaire, fibromyalgie,
-                  coup de chaleur..</p>
-              </div>
-            </div>
-          </div>
-          <div id="gridder-content-5" class="gridder-content">
-            <div class="row">
-              <div class="col-sm-6">
-                <img src="images/imgC5.png" class="img-responsive" />
-              </div>
-              <div class="col-sm-6">
-                <h2>LES VENTOUSES</h2>
-                <p>L'art ancestral de la pose des ventouses remonte à la chine antique. D'utilisation simple, elles ont
-                  été utilisées par de nombreux peuples à travers les âges. Plus près de nous, à l'époque de nos
-                  grands-mères, et arrières grands-mères, tous les foyers avaient leur propre jeu de ventouses. Il
-                  était commun d'avoir recours à celles-ci, pour soulager divers maux du quotidien (affections
-                  respiratoires, rhumatismales...).
-                  La pose des ventouses utilisées à bon escient, est une méthode sûre. Ses résultats sont souvent
-                  rapides et impressionnants car le corps réagit en quelques heures après la pose sur les sites
-                  appropriés.<br>
-                  Le but de l'emploi de ventouses est de renforcer ou d'activer les potentiels d'auto guérison du
-                  corps, quand ils n'agissent pas spontanément par eux-mêmes.
-                  Les ventouses on l'effet de succion, qui favorise l'évacuation des agents pathogènes, la
-                  circulation de l'énergie, du sang, et de la lymphe, pour débloquer la douleur, par un profond effet
-                  antalgique.<br>
-                  Les ventouses sont souveraines pour soulager les pathologies "dites chaudes" : arthrite, sciatique,
-                  tendinite, bronchite...
-                  Le massage avec ventouses, réalise une synergie, alliant les techniques de massage, et le massage
-                  aux ventouses stimule la circulation sur toute la surface traitée, activant le métabolisme et donc
-                  la nutrition des tissus. De plus, il évacue toute la peau morte, augmentant ainsi la perméabilité et
-                  la respiration de la peau.<br>
-                  Les effets du massage aux ventouses sur le muscle sont plus mécaniques : en stimulant le
-                  drainage de sang et de lymphe, il stimule le métaboliste et a un effet positif sur l'organisme dans
-                  son ensemble. La résistance de l'organisme est renforcée et l'autorégulation des fonctions
-                  corporelles perturbées est enclenchée. Les ventouses permettent d'optimiser tout type de
-                  massage. Le massage aux ventouses apporte une aide considérable à la détoxination du corps, et
-                  des organes, au drainage des liquides organiques, à l'élimination de la cellulite et des surcharges.</p>
-                <p>Très efficace : On peut également traiter la cellulite avec les ventouses, ou bien encore effectuer
-                  un soin relaxant visage et cela avec les ventouses « glissées ».</p>
-              </div>
-            </div>
-          </div>
-          <div id="gridder-content-6" class="gridder-content">
-            <div class="row">
-              <div class="col-sm-6">
-                <img src="images/imgC6.png" class="img-responsive" />
-              </div>
-              <div class="col-sm-6">
-                <h2>LES MOXAS ou MOXIBUSTION</h2>
-                <p>La moxibustion est une méthode de santé chinoise, remontant à la plus haute antiquité.
-                  Simple,  à la portée de chacun, elle consiste à stimuler, par la chaleur obtenue, avec de l'étoupe
-                  d'armoise, certaines zones et points du corps.</p>
-                <p>Les bienfaits de la moxibustion sont multiples : les moxas aident à, renforcer l'énergie vitale (qi)
-                  et le système immunitaire,  à développer les globules blancs,  à réchauffer le corps,  à chasser la
-                  fatigue et calmer les douleurs, soulager tous les petits maux de la vie quotidienne,  et également,
-                  d'après la médecine traditionnelle Chinoise, favorise la longévité.</p>
-                <p>Les moxas soulagent les pathologies "dites froides" : arthrose, fatigue chronique, dermatologie,gynécologie...</p>
-              </div>
-            </div>
-          </div> 
-          <div id="gridder-content-7" class="gridder-content">
-            <div class="row">
-              <div class="col-sm-6">
-                <img src="images/imgC7.png" class="img-responsive" />
-              </div>
-              <div class="col-sm-6">
-                <h2>Réflexologie Plantaire</h2>
-                <p>A qui s'adresse t-elle ?<br>
-                  Quels que soient votre activité, votre âge, ou votre état de santé, la Réflexologie s'adresse à tous,
-                  du bébé de quelques jours aux personnes âgées.
-                  Elle sert avant tout à se détendre, éliminer les tensions.
-                  Ainsi, on remarque une amélioration voire une disparition des troubles issus du stress tels que,
-                  les troubles nerveux, digestifs, les troubles du transit, du sommeil, la fatigue…
-                  Elle agit sur la circulation sanguine et lymphatique, permet l’élimination des toxines, soulage les
-                  douleurs musculaires.<br>
-                  Chez les enfants on observe un apaisement des cas d’hyperactivité, des angoisses diverses, une
-                  amélioration de la concentration…
-                  En milieu hospitalier, en Pédiatrie ou en Oncologie, la réflexologie s'emploi pour accélérer le
-                  rétablissement après une intervention chirurgicale, mais aussi dans les soins intensifs et
-                  palliatifs.<br>
-                  La Réflexologie peut être pratiquée lors de traitement allopathique pour renforcer la guérison.
-                  C’est aussi une méthode de confort et de soutien en cas de pathologie lourde.
-                  Vous pouvez aussi choisir d’aborder la réflexologie comme un moment de bien-être et faire une
-                  séance de temps en temps juste pour le plaisir
-                  La Réflexologie peut contribuer à réduire chez les malades, l'impact post-opératoire engendrant
-                  les états dépressifs:  anxiété, douleur et infection.</p>
-              </div>
-            </div>
-          </div>
-          <div id="gridder-content-8" class="gridder-content">
-            <div class="row">
-              <div class="col-sm-6">
-                <img src="images/imgC8.png" class="img-responsive" />
-              </div>
-              <div class="col-sm-6">
-                <h2>Item 8</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-              </div>
-            </div>
-          </div>
-          <div id="gridder-content-9" class="gridder-content">
-            <div class="row">
-              <div class="col-sm-6">
-                <img src="images/imgC9.png" class="img-responsive" />
-              </div>
-              <div class="col-sm-6">
-                <h2>Item 9</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-              </div>
-            </div>
-          </div>
-          <p></p>
-        </div>
-      </section> 
-
-    <!-- ***********************************
-    ****************************************
-    -          FIN PAUSE DETNTE            -
-    ****************************************
-    ************************************ -->
-
-    <!-- ***********************************
-    ****************************************
-    -         DEBUT PRATICIENNE            -
-    ****************************************
-    ************************************ -->
-
-      <section id="Practicienne">
-        <div class="col-lg-4">
-          <h2><strong>Votre Practicienne</strong></h2>
-        </div>
-        <div class="clearBoth"></div>
-        <div class="col-sm-7 text">
-          <p>La réflexologie est une science qui part du principe qu’il y a dans les pieds et les oreilles, la représentation miniaturisée du corps humain.
-            C’est une pratique manuelle qui permet, par simple pression du pouce, des doigts ou da réflexologie est une science qui part du principe qu’il y a dans les pieds et les oreilles, la représentation miniaturisée du corps humain.
-            C’est une pratique manuelle qui permet, par simple pression du pouce, des doigts </p>
-          <h4>Titres et certifications</h4>
-          <ul>
-            <li>Doctorat en machin chouette truc</li>
-            <li>Une chose sympa comme certificat</li>
-            <li>Lorem ipsum dolor sit amet, consectueur</li>
-            <li>Unc tincidunt semper</li>
-            <li>Celerisque, felis leo suscipit eros, et</li>
-            <li>Volutpat ante elit a tortor. Cum</li>
-          </ul>
-        </div>
-        <div class="col-sm-5">
-          <img src="images/portrait.png">
-        </div>
-      </section> 
-
-    <!-- ***********************************
-    ****************************************
-    -          FIN PRATICIENNE             -
-    ****************************************
-    ************************************ -->
-
-
-      <div class="clearBoth"></div>
-
-      <div class="trait col-lg-12">
-        <p></p>
-      </div>
-
-    <!-- ***********************************
-    ****************************************
-    -           DEBUT CONTACT              -
-    ****************************************
-    ************************************ -->
-
-
-      <section id="Contact">
-        <div class="container" id="container">
-
-          <div class="col-lg-4">
-            <h2><strong>Contact</strong></h2>
-          </div>
-
-          <div class="clearBoth"></div>
-
-          <form method="post" action="contact.php"> <!-- Début des champs formulaire -->
-
-            <div class="row">   
-              <div class="col-lg-4 col-lg-offset-2 col-sm-6 text-center">
-                <label for="name"></label>
-                <input type="text" name="name" placeholder="Prénom" maxlength="30" />
-              </div>
-
-              <div class="col-lg-4 col-sm-6 text-center">
-                <label for="name"></label>
-                <input type="text" name="name" placeholder="Nom" maxlength="30"/>
-              </div>
-              <div class="col-lg-2"></div>
-
-            </div>
-            <div class="row">
-              <div class="col-lg-4 col-lg-offset-2 col-sm-6 text-center">
-                <label for="email"></label>
-                <input type="email" name="email" placeholder="E-mail" maxlength="50"/>
-              </div>
-
-              <div class="col-lg-4 col-sm-6 text-center">
-                <label for="phone"></label>
-                <input type="tel" name="phone" placeholder="Numéro de téléphone"</input>
-              </div>
-              <div class="col-lg-2"></div>
-            </div>
-
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-sm-12 text-center">
-              <label for="comment"></label>
-              <textarea name="Commentaires" placeholder="Laissez un commentaire ou une question..."></textarea>
-            </div>
-          </div>
-
-            <div class="col-sm-4 col-sm-offset-4 text-center">
-              <input type="submit" name="submit" value="Envoyer"/>
-            </div>
-
-            <div class="trait col-lg-12">
-              <p></p>
-            </div>
-
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.75769399563!2d2.2775168080366446!3d48.858950681339934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1464888183490" width="1100" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-          </form>
-        </div> 
-      </section> 
-
-    <!-- ***********************************
-    ****************************************
-    -             FIN CONTACT              -
-    ****************************************
-    ************************************ -->
-
-    </div>
-
-
-    <footer id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2 hidden-sm hidden-xs rightBar">
-            <div id="lotusFooter"></div>
-          </div>
-
-          <div class="col-md-10" id="footerSpace"> 
-            <div class="row">      
-              <div class="col-md-4 text-center rightBar">
-                <p>Conditions générales d'Utilisation</p>
-              </div>
-              <div class="col-md-4 text-center rightBar">
-                <p>Conditions générales de vente</p>
-              </div>
-              <div class="col-md-4 text-center">
-                <p>Site internet de Lydia Petriacq</p>
-              </div>
-            </div>
-            <div class="col-md-12 text-center">
-              <div id="copyright">Copyright © 2016 LydiaP. Tous droits réservés.</div>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </footer>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="jquery/js/jquery.gridder.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="scripts/main.js"></script>
-  </body>
-</html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Reflexologie - Lydia Villot Petriacq</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Armata" rel="stylesheet" type="text/css">
+		<link href="jquery/css/jquery.gridder.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles/style.css">
+
+	</head>
+	<body>
+
+		<!-- ***********************************
+****************************************
+-          DEBUT DU HEADER             -
+****************************************
+************************************ -->
+
+		<header>
+			<div class="container headerContainer">
+				<div class="row">
+					<div class="col-md-4 col-sm-3"></div>
+					<div class="col-md-4 col-sm-6 text-center">
+						<img src="images/Lotus.png" alt="logo" id="lotus" style="margin:center;">
+					</div>
+					<div class="col-md-4 col-sm-3"></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<h1 id="titre">Lydia Villot Petriacq</h1>
+					</div>
+				</div>
+
+				<section id="topbar">
+					<nav id="navbar">
+						<ul class="menu">
+							<li class="col-sm-3">
+								<a href="#" title="Accueil">ACCUEIL</a>
+							</li>
+							<li class="col-sm-3">
+								<a href="#PauseDetente" title="Pause Détente">PAUSE DETENTE</a>
+							</li>
+							<li class="col-sm-3">
+								<a href="#Practicienne" title="Votre Practicienne">VOTRE PRACTICIENNE</a>
+							</li>
+							<li class="col-sm-3">
+								<a href="#" title="Contact">CONTACT</a>
+							</li>
+						</ul>
+					</nav>
+				</section>
+			</div>
+		</header>
+
+		<!-- ***********************************
+****************************************
+-           FIN DU HEADER              -
+****************************************
+************************************ -->
+
+		<div class="container" id="mainContainer">
+
+			<!-- ***********************************
+****************************************
+-          DEBUT DU SLIDER             -
+****************************************
+************************************ -->
+
+			<section id="slider">
+				<div id="myCarousel" class="carousel slide myCarousel" data-interval="false" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol> 
+					<!-- Carousel items -->
+					<div class="carousel-inner">
+						<div class="active item">
+							<img src="images/Header-img.png">
+							<!--put img inside itens like this-->
+							<!--<img src="" alt="...">-->
+							<div class="container">
+								<div class="carousel-caption">
+									<h2>La réflexologie vise à mobiliser les processus d'autoguérison du corps</h2>
+									<a href="#" title="Prendre contact">Prendre contact</a>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img src="images/imgC2.png">
+							<div class="container">
+								<div class="carousel-caption">
+									<h2>La réflexologie vise à mobiliser les processus d'autoguérison du corps</h2>
+									<a href="#" title="Prendre contact">Prendre contact</a>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img src="images/imgC1.png">
+							<div class="container">
+								<div class="carousel-caption">
+									<h2>La réflexologie vise à mobiliser les processus d'autoguérison du corps</h2>
+									<a href="#" title="Prendre contact">Prendre contact</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr class="transition-timer-carousel-progress-bar" />
+
+				</div>
+
+
+			</section> <!-- Fin section slider -->
+
+			<!-- ***********************************
+****************************************
+-          FIN DU SLIDER              -
+****************************************
+************************************ -->
+
+			<!-- ***********************************
+****************************************
+-         DEBUT REFLEXOLOGIE           -
+****************************************
+************************************ -->
+
+
+			<section id="Reflexologie">
+				<div class="col-lg-5 col-lg-offset-3">
+					<h2 id="titre1"><strong>La réfléxologie, c'est quoi ?</strong></h2>
+				</div>
+				<div class="col-lg-12 text centerText trait">
+					<p>
+						La réflexologie est une science qui part du principe qu’il y a dans les pieds et les oreilles, la représentation miniaturisée du corps humain.
+						C’est une pratique manuelle qui permet, par simple pression du pouce, des doigts ou d’une tige auriculaire sur un point particulier du pied ou de l’oreille, une action indirecte sur un organe ou sur certaines parties du corps.
+						La réflexologie est une technique qui aide l’organisme à retrouver son équilibre et crée les conditions favorables à l’autoguérison.
+					</p>
+				</div>
+				<div class="col-lg-12">
+				</div>
+				<div class="row">
+					<div class="col-xs-6 text-right">
+						<span class="buttonReflexo" onclick="affiche_contenu()">Pourquoi ?</span>
+						<div id="cible" style="display:none;">
+							<p>Un texte quelconque.<br>Vraiment quelconque.</p>
+						</div>
+					</div>
+					<div class="col-xs-6 text-left">
+						<span class="buttonReflexo" onclick="affiche_contenu1()">Pour qui ?</span>
+						<div id="cible1" style="display:none;">
+							<p>Un texte quelconque.<br>Vraiment quelconque.</p>
+						</div>
+					</div>
+					<div class="clearBoth"></div>
+
+					<div class="col-lg-3 ">
+						<h3>Dans quel cas ?</h3>
+					</div>
+
+					<div class="clearBoth"></div>
+
+					<div class="col-lg-6 text">
+						<p>La réflexologie stimule la capacité d'autoguérison en cas de:</p>
+						<ul>
+							<li> Stress, surmenage, anxiété, nervosité, tensions, énergies négatives</li>
+							<li>Troubles du sommeil,</li>
+							<li>Troubles respiratoires,</li>
+							<li>Migraines, névralgies,</li>
+							<li>Tensions musculaires,</li>
+							<li>etc.</li>
+						</ul>
+					</div>
+
+					<div class="clearBoth"></div>
+
+					<div class="col-lg-3">
+						<h3>Les effets :</h3>
+					</div>
+
+					<div class="clearBoth"></div>
+
+					<div class="col-lg-6 text">
+						<ul>
+							<li>Libre circulation de l'énergie vitale,</li>
+							<li> Relaxe, dynamise l’organisme d’où une amélioration de ses fonctions, </li>
+							<li> Soulage les douleurs - Réduit l’anxiété (enfants hyper actifs ou anxieux), </li>
+							<li> Décontract les muscles et le mental (sportifs), </li>
+							<li> Soulage les tensions physiques et nerveuses, </li>
+							<li> Détend, apporte une profonde relaxation,</li>
+							<li> Améliore la circulation sanguine,</li>
+							<li>Favorise l'élimination des toxines,</li>
+							<li> Améliore les fonctions digestives,</li>
+							<li> Renforce le système immunitaire,</li>
+							<li> Régule les troubles du sommeil</li>
+						</ul>
+					</div>
+					</section> <!-- Fin section reflexologie -->
+
+				<div class="clearBoth"></div>
+
+				<!-- ***********************************
+****************************************
+-          FIN REFLEXOLOGIE            -
+****************************************
+************************************ -->
+
+				<!-- ***********************************
+****************************************
+-        DEBUT PAUSE DETENTE           -
+****************************************
+************************************ -->
+
+				<section id="PauseDetente">
+					<div class="trait col-lg-12">
+						<p></p>
+					</div>
+
+					<div class="col-lg-4">
+						<h2><strong>Pause détente</strong></h2>
+					</div>
+
+					<div class="col-lg-12 text-center">
+						<ul class="gridder">
+							<div>
+								<li class="gridder-list" data-griddercontent="#gridder-content-1">
+									<img src="images/imgC1.png" class="img-responsive" />
+								</li>
+
+								<li class="gridder-list" data-griddercontent="#gridder-content-2">
+									<img src="images/imgC2.png" class="img-responsive" />
+								</li>
+
+								<li class="gridder-list" data-griddercontent="#gridder-content-3">
+									<img src="images/imgC3.png" class="img-responsive" />
+								</li></div>
+							<div>
+
+								<li class="gridder-list" data-griddercontent="#gridder-content-4">
+									<img src="images/imgC4.png" class="img-responsive" />
+								</li>
+
+								<li class="gridder-list" data-griddercontent="#gridder-content-5">
+									<img src="images/imgC5.png" class="img-responsive" />
+								</li>
+
+								<li class="gridder-list" data-griddercontent="#gridder-content-6">
+									<img src="images/imgC6.png" class="img-responsive" />
+								</li></div>
+
+							<div>
+								<li class="gridder-list" data-griddercontent="#gridder-content-7">
+									<img src="images/imgC7.png" class="img-responsive" />
+								</li>
+
+								<li class="gridder-list" data-griddercontent="#gridder-content-8">
+									<img src="images/imgC8.png" class="img-responsive" />
+
+								<li class="gridder-list" data-griddercontent="#gridder-content-9">
+									<img src="images/imgC9.png" class="img-responsive" />
+								</li>
+							</div>
+						</ul>
+						<div id="gridder-content-1" class="gridder-content">
+							<div class="row">
+								<div class="col-sm-6">
+									<img src="images/imgC1.png" class="img-responsive" />
+								</div>
+								<div class="col-sm-6">
+									<h2>Réflexologie auriculaire</h2>
+									<p>Il existe, selon la conception chinoise, au niveau du pavillon auriculaire, une projection des
+										différentes parties du corps et des organes. Chaque oreille compte plus de points, ou zones
+										réflexes, qui sont associés aux différentes parties du corps.
+										La réflexologie auriculaire est une réflexologie par l'oreille. C'est une technique qui consiste à
+										utiliser le pavillon de l'oreille, par stimulation de points ou zones réflexes.</p>
+
+									<p>Les origines, de l'auriculothérapie,  remontent aussi loin que la réflexologie elle-même. Indiens,
+										Egyptiens et Chinois pratiquaient cette technique depuis  l'antiquité. Hyppocrate soignait, avec
+										succès, certains types d'impuissance par petites saignées sur la zone auriculaire.</p>
+
+									<p>L'acquisition des règles de base, de l'auriculothérapie chinoise, permet dès les premiers signes
+										d'un déséquilibre, d'harmoniser le fonctionnement du corps, en stimulant les zones réflexes
+										appropriées, et donc de soulager et de maintenir le corps en bonne santé.</p>
+
+									<p>La réflexologie auriculaire est particulièrement efficace, dans tous les désordres fonctionnels, et
+										notamment pour les troubles du système nerveux (insomnie, stress),  digestifs, pour la prise de
+										poids, l'asthme, les allergies,  la dépression, la gynécologique, les phobies,  ...</p>
+
+								</div>
+							</div>
+						</div>
+						<div id="gridder-content-2" class="gridder-content">
+							<div class="row">
+								<div class="col-sm-6">
+									<img src="images/imgC2.png" class="img-responsive" />
+								</div>
+								<div class="col-sm-6">
+									<h2>Item 2</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+								</div>
+							</div>
+						</div>
+						<div id="gridder-content-3" class="gridder-content">
+							<div class="row">
+								<div class="col-sm-6">
+									<img src="images/imgC3.png" class="img-responsive" />
+								</div>
+								<div class="col-sm-6">
+									<h2>Item 3</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+								</div>
+							</div>
+						</div>
+						<div id="gridder-content-4" class="gridder-content">
+							<div class="row">
+								<div class="col-sm-6">
+									<img src="images/imgC4.png" class="img-responsive" />
+								</div>
+								<div class="col-sm-6">
+									<h2>LES GUASHAS</h2>
+									<p>Une technique ancestrale adaptée au monde moderne.
+										On peut traduire Guasha par "faire sortir la maladie par frottement". Le guasha consiste à frotter,
+										avec un instrument à bord lisse, la surface de la peau, là où réside une lésion sous-cutanée, ou un
+										déséquilibre. C'est une méthode relaxante et agréable. Le guasha permet, pour un bénéfice
+										immédiat et durable, de "chasser le vent", de réduire l'inflammation, d'éliminer le froid, et de
+										soulager la douleur, qu'elle soit superficielle ou profonde.</p>
+									<p>Le massage guasha est utilisé pour de nombreux problèmes de santé, aigus et chroniques, aussi
+										variés que : rhume, grippe, mal de tête, indigestion, vertige, douleur articulaire, fibromyalgie,
+										coup de chaleur..</p>
+								</div>
+							</div>
+						</div>
+						<div id="gridder-content-5" class="gridder-content">
+							<div class="row">
+								<div class="col-sm-6">
+									<img src="images/imgC5.png" class="img-responsive" />
+								</div>
+								<div class="col-sm-6">
+									<h2>LES VENTOUSES</h2>
+									<p>L'art ancestral de la pose des ventouses remonte à la chine antique. D'utilisation simple, elles ont
+										été utilisées par de nombreux peuples à travers les âges. Plus près de nous, à l'époque de nos
+										grands-mères, et arrières grands-mères, tous les foyers avaient leur propre jeu de ventouses. Il
+										était commun d'avoir recours à celles-ci, pour soulager divers maux du quotidien (affections
+										respiratoires, rhumatismales...).
+										La pose des ventouses utilisées à bon escient, est une méthode sûre. Ses résultats sont souvent
+										rapides et impressionnants car le corps réagit en quelques heures après la pose sur les sites
+										appropriés.<br>
+										Le but de l'emploi de ventouses est de renforcer ou d'activer les potentiels d'auto guérison du
+										corps, quand ils n'agissent pas spontanément par eux-mêmes.
+										Les ventouses on l'effet de succion, qui favorise l'évacuation des agents pathogènes, la
+										circulation de l'énergie, du sang, et de la lymphe, pour débloquer la douleur, par un profond effet
+										antalgique.<br>
+										Les ventouses sont souveraines pour soulager les pathologies "dites chaudes" : arthrite, sciatique,
+										tendinite, bronchite...
+										Le massage avec ventouses, réalise une synergie, alliant les techniques de massage, et le massage
+										aux ventouses stimule la circulation sur toute la surface traitée, activant le métabolisme et donc
+										la nutrition des tissus. De plus, il évacue toute la peau morte, augmentant ainsi la perméabilité et
+										la respiration de la peau.<br>
+										Les effets du massage aux ventouses sur le muscle sont plus mécaniques : en stimulant le
+										drainage de sang et de lymphe, il stimule le métaboliste et a un effet positif sur l'organisme dans
+										son ensemble. La résistance de l'organisme est renforcée et l'autorégulation des fonctions
+										corporelles perturbées est enclenchée. Les ventouses permettent d'optimiser tout type de
+										massage. Le massage aux ventouses apporte une aide considérable à la détoxination du corps, et
+										des organes, au drainage des liquides organiques, à l'élimination de la cellulite et des surcharges.</p>
+									<p>Très efficace : On peut également traiter la cellulite avec les ventouses, ou bien encore effectuer
+										un soin relaxant visage et cela avec les ventouses « glissées ».</p>
+								</div>
+							</div>
+						</div>
+						<div id="gridder-content-6" class="gridder-content">
+							<div class="row">
+								<div class="col-sm-6">
+									<img src="images/imgC6.png" class="img-responsive" />
+								</div>
+								<div class="col-sm-6">
+									<h2>LES MOXAS ou MOXIBUSTION</h2>
+									<p>La moxibustion est une méthode de santé chinoise, remontant à la plus haute antiquité.
+										Simple,  à la portée de chacun, elle consiste à stimuler, par la chaleur obtenue, avec de l'étoupe
+										d'armoise, certaines zones et points du corps.</p>
+									<p>Les bienfaits de la moxibustion sont multiples : les moxas aident à, renforcer l'énergie vitale (qi)
+										et le système immunitaire,  à développer les globules blancs,  à réchauffer le corps,  à chasser la
+										fatigue et calmer les douleurs, soulager tous les petits maux de la vie quotidienne,  et également,
+										d'après la médecine traditionnelle Chinoise, favorise la longévité.</p>
+									<p>Les moxas soulagent les pathologies "dites froides" : arthrose, fatigue chronique, dermatologie,gynécologie...</p>
+								</div>
+							</div>
+						</div> 
+						<div id="gridder-content-7" class="gridder-content">
+							<div class="row">
+								<div class="col-sm-6">
+									<img src="images/imgC7.png" class="img-responsive" />
+								</div>
+								<div class="col-sm-6">
+									<h2>Réflexologie Plantaire</h2>
+									<p>A qui s'adresse t-elle ?<br>
+										Quels que soient votre activité, votre âge, ou votre état de santé, la Réflexologie s'adresse à tous,
+										du bébé de quelques jours aux personnes âgées.
+										Elle sert avant tout à se détendre, éliminer les tensions.
+										Ainsi, on remarque une amélioration voire une disparition des troubles issus du stress tels que,
+										les troubles nerveux, digestifs, les troubles du transit, du sommeil, la fatigue…
+										Elle agit sur la circulation sanguine et lymphatique, permet l’élimination des toxines, soulage les
+										douleurs musculaires.<br>
+										Chez les enfants on observe un apaisement des cas d’hyperactivité, des angoisses diverses, une
+										amélioration de la concentration…
+										En milieu hospitalier, en Pédiatrie ou en Oncologie, la réflexologie s'emploi pour accélérer le
+										rétablissement après une intervention chirurgicale, mais aussi dans les soins intensifs et
+										palliatifs.<br>
+										La Réflexologie peut être pratiquée lors de traitement allopathique pour renforcer la guérison.
+										C’est aussi une méthode de confort et de soutien en cas de pathologie lourde.
+										Vous pouvez aussi choisir d’aborder la réflexologie comme un moment de bien-être et faire une
+										séance de temps en temps juste pour le plaisir
+										La Réflexologie peut contribuer à réduire chez les malades, l'impact post-opératoire engendrant
+										les états dépressifs:  anxiété, douleur et infection.</p>
+								</div>
+							</div>
+						</div>
+						<div id="gridder-content-8" class="gridder-content">
+							<div class="row">
+								<div class="col-sm-6">
+									<img src="images/imgC8.png" class="img-responsive" />
+								</div>
+								<div class="col-sm-6">
+									<h2>Item 8</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+								</div>
+							</div>
+						</div>
+						<div id="gridder-content-9" class="gridder-content">
+							<div class="row">
+								<div class="col-sm-6">
+									<img src="images/imgC9.png" class="img-responsive" />
+								</div>
+								<div class="col-sm-6">
+									<h2>Item 9</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+								</div>
+							</div>
+						</div>
+						<p></p>
+					</div>
+				</section> 
+
+				<!-- ***********************************
+****************************************
+-          FIN PAUSE DETNTE            -
+****************************************
+************************************ -->
+
+				<!-- ***********************************
+****************************************
+-         DEBUT PRATICIENNE            -
+****************************************
+************************************ -->
+
+				<section id="Practicienne">
+					<div class="col-lg-4">
+						<h2><strong>Votre Practicienne</strong></h2>
+					</div>
+					<div class="clearBoth"></div>
+					<div class="col-sm-7 text">
+						<p>La réflexologie est une science qui part du principe qu’il y a dans les pieds et les oreilles, la représentation miniaturisée du corps humain.
+							C’est une pratique manuelle qui permet, par simple pression du pouce, des doigts ou da réflexologie est une science qui part du principe qu’il y a dans les pieds et les oreilles, la représentation miniaturisée du corps humain.
+							C’est une pratique manuelle qui permet, par simple pression du pouce, des doigts </p>
+						<h4>Titres et certifications</h4>
+						<ul>
+							<li>Doctorat en machin chouette truc</li>
+							<li>Une chose sympa comme certificat</li>
+							<li>Lorem ipsum dolor sit amet, consectueur</li>
+							<li>Unc tincidunt semper</li>
+							<li>Celerisque, felis leo suscipit eros, et</li>
+							<li>Volutpat ante elit a tortor. Cum</li>
+						</ul>
+					</div>
+					<div class="col-sm-5">
+						<img src="images/portrait.png">
+					</div>
+				</section> 
+
+				<!-- ***********************************
+****************************************
+-          FIN PRATICIENNE             -
+****************************************
+************************************ -->
+
+
+				<div class="clearBoth"></div>
+
+				<div class="trait col-lg-12">
+					<p></p>
+				</div>
+
+				<!-- ***********************************
+****************************************
+-           DEBUT CONTACT              -
+****************************************
+************************************ -->
+
+
+				<section id="Contact">
+					<div class="container" id="container">
+
+						<div class="col-lg-4">
+							<h2><strong>Contact</strong></h2>
+						</div>
+
+						<div class="clearBoth"></div>
+
+						<form method="post" action="contact.php"> <!-- Début des champs formulaire -->
+
+							<div class="row">   
+								<div class="col-lg-4 col-lg-offset-2 col-sm-6 text-center">
+									<label for="name"></label>
+									<input type="text" name="name" placeholder="Prénom" maxlength="30" />
+								</div>
+
+								<div class="col-lg-4 col-sm-6 text-center">
+									<label for="name"></label>
+									<input type="text" name="name" placeholder="Nom" maxlength="30"/>
+								</div>
+								<div class="col-lg-2"></div>
+
+							</div>
+							<div class="row">
+								<div class="col-lg-4 col-lg-offset-2 col-sm-6 text-center">
+									<label for="email"></input>
+									<input type="email" name="email" placeholder="E-mail" maxlength="50"/>
+								</div>
+
+								<div class="col-lg-4 col-sm-6 text-center">
+									<label for="phone"></label>
+									<input type="tel" name="phone" placeholder="Numéro de téléphone"</input>
+								</div>
+								<div class="col-lg-2"></div>
+							</div>
+
+							<div class="row">
+								<div class="col-lg-8 col-lg-offset-2 col-sm-12 text-center">
+									<label for="comment"></label>
+									<textarea name="Commentaires" placeholder="Laissez un commentaire ou une question..."></textarea>
+								</div>
+							</div>
+
+							<div class="col-sm-4 col-sm-offset-4 text-center">
+								<input type="submit" name="submit" value="Envoyer"/>
+							</div>
+
+							<div class="trait" class="col-lg-5">
+								<p></p>
+							</div>
+
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.75769399563!2d2.2775168080366446!3d48.858950681339934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1464888183490" width="1100" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+						</form>
+					</div> 
+				</section> 
+
+				<!-- ***********************************
+****************************************
+-             FIN CONTACT              -
+****************************************
+************************************ -->
+
+				</div>
+
+
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 hidden-sm hidden-xs rightBar">
+							<div id="lotusFooter"></div>
+						</div>
+
+						<div class="col-md-10" id="footerSpace"> 
+							<div class="row">      
+								<div class="col-md-4 text-center rightBar">
+									<p>Conditions générales d'Utilisation</p>
+								</div>
+								<div class="col-md-4 text-center rightBar">
+									<p>Conditions générales de vente</p>
+								</div>
+								<div class="col-md-4 text-center">
+									<p>Site internet de Lydia Petriacq</p>
+								</div>
+							</div>
+							<div class="col-md-12 text-center">
+								<div id="copyright">Copyright © 2016 LydiaP. Tous droits réservés.</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</footer>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			<script src="jquery/js/jquery.gridder.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+			<script src="scripts/main.js"></script>
+			</body>
+		</html>

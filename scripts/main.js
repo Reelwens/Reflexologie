@@ -105,22 +105,26 @@ $(document).ready(function () {
 
 });
 
-/************************************************************************************************************** apparition/disparition texte ***********************************************************************************************************************************/
+/***************************************
+****************************************
+-     APPARITION/DISPARITION TEXTE     -
+****************************************
+***************************************/
 
-  function affiche_contenu() {
-      var cible = document.getElementById('cible');
-      if(cible.style.display != '') {
-        cible.style.display = '';
-      } else {
-        cible.style.display = 'none';
-      }
-    }
+function affiche_contenu() {
+	var cible = document.getElementById('cible');
+	if(cible.style.display != '') {
+		cible.style.display = '';
+	} else {
+		cible.style.display = 'none';
+	}
+}
 
- function affiche_contenu1() {
-      var cible = document.getElementById('cible1');
-      if(cible.style.display != '') {
-        cible.style.display = '';
-      } else {
-        cible.style.display = 'none';
-      }
-    }
+function affiche_contenu1() {
+	var cible = document.getElementById('cible1');
+	if(cible.style.display != '') {
+		cible.style.display = '';
+	} else {
+		cible.style.display = 'none';
+	}
+}
