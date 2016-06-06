@@ -6,6 +6,10 @@ body{
   color: grey;
 }
 
+#mainContainer{
+  -webkit-box-shadow: 0px 2px 10px 1px rgba(227, 227, 227, 0.81);
+}
+
 /*-----------SCROLL HAUT/BAS----------*/
 ::-webkit-scrollbar {									/* Scrollbars */
   width: .875em;
@@ -85,8 +89,8 @@ img{
   text-align: center;
 }
 
-.col-sm-5 img{
-  opacity: 0.7;
+.col-sm-4 img{
+  opacity: 0.8;
   border: solid #90ccdb 7px;
 }
 
@@ -195,6 +199,7 @@ nav li a {
 
 .menu li a {
   text-decoration: none;
+  width: 100%;
 }
 
 .menu > li{
@@ -229,6 +234,19 @@ menu > li > a{
   padding-left: 5px;
   padding-right: 5px;
 }
+
+#Practicienne{
+  margin-bottom:80px;
+}
+
+#Votre_Practicienne{
+  margin-top: 60px;
+}
+
+#Reflexologie{
+  margin-bottom: 80px;
+}
+
 
 
 /** ---------------------------------------
@@ -292,10 +310,16 @@ img{
 * Grille
 ----------------------------------------*/
 
+#Pause_Detente{
+  margin-top: 30px;
+}
+
 .gridder{
   margin:0px;
   padding:0px;
   list-style-type:none;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 .gridder-list{
@@ -367,6 +391,7 @@ img{
 /* -------Contact ------ */
 
 #Contact{
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 
