@@ -182,33 +182,20 @@ ul li{
 	margin-bottom: 35px;
 }
 
-.menu{
-	padding-left: 0px;
-	padding-right: 0px;
-}
 
 nav a{
 	border-top: solid 2px #90ccdb;
 	border-bottom: solid 5px #90ccdb;
 	list-style: none;
 	transition: all 0.3s linear;
-}
-
-nav a {
 	color: #90ccdb;
 	transition: all 0.3s ease;
 }
 
 .menu a {
 	text-decoration: none;
-}
-
-.menu a{
 	background:white; 
 	text-align: center;
-}
-
-.menu a{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	display: inline-block;
@@ -216,13 +203,6 @@ nav a {
 
 .menu > a:hover{
 	background:#90ccdb;
-}
-
-menu a{
-	color:white;
-}
-
-.menu a:hover {
 	color:white ;
 }
 
