@@ -26,15 +26,9 @@ a:hover {
 ::-webkit-scrollbar {									/* Scrollbars */
   width: .875em;
   height: .875em;
-  background: #90ccdb url(images/bg-blog-repeat.png) 0 0 repeat; /*couleur barre de scroll*/
+  background: #ffffff url(images/bg-blog-repeat.png) 0 0 repeat; /*couleur barre de scroll*/
 }
-::-webkit-scrollbar-track-piece {						/* Fond */
-  background: transparent none;
-  border: solid .25em transparent;
-  border-right-width: .5em;
-  margin: .25em;
-  -webkit-box-shadow: inset .0625em .0625em 0 0 /*couleur trait dans scoll*/ rgb(137,131,117), inset -.0625em -.0625em 0 0 rgb(224,220,210); /* couleur contour trait barre de scroll*/
-}
+
 ::-webkit-scrollbar-track-piece:horizontal {			/* Fond pour la barre du bas */
   border-right-width: .25em;
   border-bottom-width: .5em;
@@ -45,12 +39,12 @@ a:hover {
   -webkit-border-radius: .3125em;
   -webkit-border-top-right-radius: .5625em .3125em;
   -webkit-border-bottom-right-radius: .5625em .3125em;
-  -webkit-box-shadow: inset 0 0 0 .0625em rgb(79,79,79),/*couleur contour curseur scroll*/
-    inset 0 0 0 .375em rgb(102,102,102); /* couleur interieur curseur scroll*/
+  -webkit-box-shadow: inset 0 0 0 .0625em #90ccdb,/*couleur contour curseur scroll*/
+    inset 0 0 0 .375em #90ccdb; /* couleur interieur curseur scroll*/
 }
 ::-webkit-scrollbar-thumb:hover {						/* Barre */
-  -webkit-box-shadow: inset 0 0 0 .0625em rgb(90,90,90),/*couleur contoure curseur scroll quand souris dessus*/
-    inset 0 0 0 .375em rgb(110,110,110);/*couleur curseur scroll quand souris dessus*/
+  -webkit-box-shadow: inset 0 0 0 .0625em #84b6c3,/*couleur contoure curseur scroll quand souris dessus*/
+    inset 0 0 0 .375em #84b6c3;/*couleur curseur scroll quand souris dessus*/
 }
 
 ::-webkit-scrollbar-thumb:horizontal {					/* Barre du bas */
@@ -195,7 +189,11 @@ ul li{
   padding-right: 0px;
 }
 
-
+.menu-padding{
+    
+    width:86.5%;
+    margin: auto;
+}
 
 nav li{
   border-top: solid 2px #90ccdb;
@@ -354,7 +352,19 @@ img{
 }
 
 .gridder-list{
-  width:15.83333%;
+  width:20%;
+}
+
+.gridder-close {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+}
+
+.gridder-close:hover{
+    text-decoration: none;
 }
 
 .gridder-list:nth-child(n){

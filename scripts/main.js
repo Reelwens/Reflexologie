@@ -6,16 +6,15 @@
 
 $(document).ready(function(){
 	var percent = 0,
-			interval = 20,//it takes about 6s, interval=20 takes about 4s
+			interval = 20,
 			$bar = $('.transition-timer-carousel-progress-bar'),
 			$crsl = $('#myCarousel');
 	$('.carousel-indicators li, .carousel-control').click(function (){$bar.css({width:0.5+'%'});});
-	/*line above just for showing when controls are clicked the bar goes to 0.5% to make more friendly, 
-	if you want when clicked set bar empty, change on width:0.5 to width:0*/
-	$crsl.carousel({//initialize
+
+	$crsl.carousel({
 		interval: false,
 		pause: true
-	}).on('slide.bs.carousel', function (){percent = 0;});//This event fires immediately when the bootstrap slide instance method is invoked.
+	}).on('slide.bs.carousel', function (){percent = 0;});
 	function progressBarCarousel() {
 		$bar.css({width:percent+'%'});
 		percent = percent +0.5;
@@ -24,8 +23,8 @@ $(document).ready(function(){
 			$crsl.carousel('next');
 		}
 	}
-	var barInterval = setInterval(progressBarCarousel, interval);//set interval to progressBarCarousel function
-	if (!(/Mobi/.test(navigator.userAgent))) {//tests if it isn't mobile
+	var barInterval = setInterval(progressBarCarousel, interval);
+	if (!(/Mobi/.test(navigator.userAgent))) {
 		$crsl.hover(function(){
 			clearInterval(barInterval);
 		},
@@ -53,8 +52,8 @@ $(document).ready(function(){
 jQuery(document).ready(function ($) {
 	$(".gridder").gridderExpander({
 		scrollOffset: 60,
-		scrollTo: "panel", // "panel" or "listitem"
-		animationSpeed: 400,
+		scrollTo: "panel", 
+		animationSpeed: 800,
 		animationEasing: "easeInOutExpo",
 		onStart: function () {
 			console.log("Gridder Inititialized");
