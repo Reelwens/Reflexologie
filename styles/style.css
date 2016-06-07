@@ -6,6 +6,10 @@ body{
   color: grey;
 }
 
+.container headerContainer{
+  -webkit-box-shadow: 0px 2px 10px 1px rgba(227, 227, 227, 0.81);
+}
+
 #mainContainer{
   -webkit-box-shadow: 0px 2px 10px 1px rgba(227, 227, 227, 0.81);
 }
@@ -431,6 +435,8 @@ textarea{
 
 textarea::-webkit-input-placeholder {
   font-size: 17px;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
 
