@@ -14,10 +14,6 @@ a:hover {
 	color:inherit;
 }
 
-#mainContainer{
-  -webkit-box-shadow: 0px 2px 10px 1px rgba(227, 227, 227, 0.81);
-}
-
 /*-----------SCROLL HAUT/BAS----------*/
 ::-webkit-scrollbar {									/* Scrollbars */
 	width: .875em;
@@ -97,15 +93,9 @@ img{
 	text-align: center;
 }
 
-<<<<<<< HEAD
-.col-sm-4 img{
-  opacity: 0.8;
-  border: solid #90ccdb 7px;
-=======
 .col-sm-5 img{
 	opacity: 0.7;
 	border: solid #90ccdb 7px;
->>>>>>> origin/master
 }
 
 h1#titre{
@@ -192,43 +182,6 @@ ul li{
 	margin-bottom: 35px;
 }
 
-<<<<<<< HEAD
-.menu{
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-
-
-nav li{
-  border-top: solid 2px #90ccdb;
-  border-bottom: solid 5px #90ccdb;
-  list-style: none;
-  transition: all 0.3s linear;
-}
-
-nav li a {
-  color: #90ccdb;
-  transition: all 0.3s ease;
-}
-
-.menu li a {
-  text-decoration: none;
-  width: 100%;
-}
-
-.menu > li{
-  background:white; 
-  text-align: center;
-}
-
-.menu > li a{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  display: inline-block;
-}
-=======
->>>>>>> origin/master
 
 nav a{
 	border-top: solid 2px #90ccdb;
@@ -262,19 +215,6 @@ nav a{
 	padding-left: 5px;
 	padding-right: 5px;
 }
-
-#Practicienne{
-  margin-bottom:80px;
-}
-
-#Votre_Practicienne{
-  margin-top: 60px;
-}
-
-#Reflexologie{
-  margin-bottom: 80px;
-}
-
 
 
 /** ---------------------------------------
@@ -338,22 +278,10 @@ img{
 * Grille
 ----------------------------------------*/
 
-#Pause_Detente{
-  margin-top: 30px;
-}
-
 .gridder{
-<<<<<<< HEAD
-  margin:0px;
-  padding:0px;
-  list-style-type:none;
-  margin-top: 30px;
-  margin-bottom: 60px;
-=======
 	margin:0px;
 	padding:0px;
 	list-style-type:none;
->>>>>>> origin/master
 }
 
 .gridder-list{
@@ -425,12 +353,7 @@ img{
 /* -------Contact ------ */
 
 #Contact{
-<<<<<<< HEAD
-  margin-top: 50px;
-  margin-bottom: 100px;
-=======
 	margin-bottom: 100px;
->>>>>>> origin/master
 }
 
 form{
