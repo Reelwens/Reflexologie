@@ -189,12 +189,13 @@ ul li{
   padding-right: 0px;
 }
 
-.menu-padding{
-    
-    width:86.5%;
-    margin: auto;
-}
 
+@media screen and (min-width: 1200px) {
+	.menu-padding{
+		width:1170px;
+		margin: auto;
+	}
+}
 nav li{
   border-top: solid 2px #90ccdb;
   border-bottom: solid 5px #90ccdb;
