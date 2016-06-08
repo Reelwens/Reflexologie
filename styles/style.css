@@ -196,6 +196,15 @@ ul li{
 		margin: auto;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.navbar-fixed-top{
+		position: inherit;
+	}
+}
+
+
+
 nav li{
   border-top: solid 2px #90ccdb;
   border-bottom: solid 5px #90ccdb;
