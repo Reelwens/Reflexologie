@@ -330,6 +330,44 @@ img{
 * Grille
 ----------------------------------------*/
 
+
+/*-----------text sur petite image--------------*/
+
+
+/*--------------------------modif ici --------------------*/   
+.image-container {
+  
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  background: #fff;
+  
+}
+
+
+.image img {
+  max-width: 100%;
+}
+.caption {
+  width: 200px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #90ccdb;
+  z-index: 2;
+  font-weight: 300;
+  transition: all .5s;
+}
+
+
+
+.image-container-num2:hover .caption-num2 {
+    
+  transform: translateY(-75px);
+}
+
+/*------------------------------------------*/
 #Pause_Detente{
   margin-top: 30px;
 }
@@ -350,11 +388,11 @@ img{
   float:left;
   width:100%;
   position:relative;
-  background:#EEE url("../images/loading-spin.svg") no-repeat center;
+  background:#EEE  no-repeat center;
 }
 
 .gridder-show.loading{
-  background:#EEE url("../images/loading-spin.svg") no-repeat center;
+  background:#EEE no-repeat center;
 }
 
 .gridder-content{
@@ -371,6 +409,7 @@ img{
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
     text-align: right;
+    
 }
 
 .gridder-close:hover{
@@ -389,7 +428,7 @@ img{
 
 .gridder-show{
   padding:20px;
-  background:#EEE;
+  background:#90ccdb;
   margin-bottom:1%;
 }
 
@@ -402,11 +441,11 @@ img{
 }
 
 .gridder-list:hover{
-  opacity:0.8;
+  opacity:0.5;
 }
 
 .hasSelectedItem .gridder-list{
-  opacity:0.5;
+  opacity:0.35;
 }
 
 .hasSelectedItem .gridder-list.selectedItem{
@@ -416,9 +455,6 @@ img{
 .gridder-animation{
   display: none;
 }
-/*# sourceMappingURL=demo.css.map */
-
-
 
 /* -------Contact ------ */
 
