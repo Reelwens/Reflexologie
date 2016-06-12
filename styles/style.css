@@ -432,6 +432,7 @@ img{
 .gridder-show{
 	padding:20px;
 	background:#90ccdb;
+    color: white;
 	margin-bottom:1%;
 }
 
@@ -458,6 +459,75 @@ img{
 .gridder-animation{
 	display: none;
 }
+
+/* -------effet image ------ */
+.effet_img{
+  height: 350px;
+  background-image: url("../images/image_scroll.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*--------Table-------*/
+
+.coller td{
+  padding: 0px 10px;
+}
+
+caption{
+  text-align: center;
+  font-size: bolder;
+  font-size: 30px;
+  color: #90ccdb;
+  margin-bottom: 10px;
+}
+
+thead th{
+  background: #90ccdb;
+  color: #FFFFFF;
+}
+
+tbody th{
+  text-align: left;
+  padding-left: 20px;
+}
+#plusGros{
+  font-size: 16px;
+  color: black;
+}
+
+#bigger{
+  color: black;
+  font-size: 23px;
+  margin-top: 20px;
+}
+
+#evenBigger{
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+table{
+  margin: auto;
+  width: 62%;
+  margin-bottom: 20px;
+  border: #90ccdb solid 1px;
+}
+th,td{
+  padding: 10px 5px;
+  text-align: center;
+}
+
+#centerth th{
+  text-align: center;
+  border: #90ccdb solid 1px; 
+}
+
+
 
 /* -------Contact ------ */
 
