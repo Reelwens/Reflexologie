@@ -335,36 +335,14 @@ img{
 
 
 /*--------------------------modif ici --------------------*/   
-.image-container {
 
-	position: relative;
-	width: 200px;
-	height: 200px;
-	overflow: hidden;
-	background: #fff;
-
+.gridder-list {
+  position: relative;
 }
 
-
-.image img {
-	max-width: 100%;
-}
-.caption {
-	width: 200px;
-	height: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background: #90ccdb;
-	z-index: 2;
-	font-weight: 300;
-	transition: all .5s;
-}
-
-
-
-.image-container-num2:hover .caption-num2 {
-
-	transform: translateY(-75px);
+.caption caption-num2{
+ position: absolute;
+  margin-bottom: 50px;
 }
 
 /*------------------------------------------*/
@@ -510,6 +488,17 @@ input[type=submit]{
 input[type=submit]:hover{
 	background: #90CCDB;
 	color: white;
+}
+
+/*------- MENTION LEGALES ------ */
+
+#mentions{
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+#dernierA{
+  margin-bottom: 80px;
 }
 
 /* ------- Footer ------ */
