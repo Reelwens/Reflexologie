@@ -293,8 +293,16 @@ menu > li > a{
 
 .carousel-inner .item{
 	text-align: center;
-	height: 300px;/* modifier ici*/
+	height: 400px;/* modifier ici*/
 }
+
+.carousel-inner .item img{
+  height: 400px; 
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
 .control-buttons{
 	text-align:center;
 }
@@ -311,17 +319,15 @@ menu > li > a{
 	z-index: 11;
 }
 
-img{
-	width: 100%;
-}
+
 .carousel-caption h2{
-	margin-bottom: 30px;
+	margin-bottom: 80px;
 }
 
 .carousel-caption a{
 	background: #90ccdb;
 	padding: 5px 15px;
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 	text-decoration: none;
 	color: white; 
 	font-size: 20px;
@@ -498,13 +504,13 @@ tbody th{
 }
 
 #bigger{
-  color: black;
+  color: #90ccdb;
   font-size: 23px;
   margin-top: 20px;
 }
 
 #evenBigger{
-  color: black;
+  color: #90ccdb;
   font-size: 26px;
   font-weight: bold;
   margin-top: 20px;
@@ -530,6 +536,18 @@ th,td{
 
 
 /* -------Contact ------ */
+.col-lg-8 ul{
+  text-decoration: none;
+}
+
+#deco li{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 #Contact{
 	margin-top: 50px;
