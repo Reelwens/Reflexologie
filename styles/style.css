@@ -254,7 +254,7 @@ menu > li > a{
 	padding-left: 5px;
 	padding-right: 5px;
 }
-
+/*---------Practicienne----*/
 #Practicienne{
 	margin-bottom:80px;
 }
@@ -263,8 +263,17 @@ menu > li > a{
 	margin-top: 60px;
 }
 
+#RDV{
+  color: #90ccdb;
+  margin: 45px 0px 20px 0px;
+}
+
 #Reflexologie{
 	margin-bottom: 80px;
+}
+
+#gras{
+  font-weight: bold;
 }
 
 
@@ -335,31 +344,25 @@ img{
 
 
 /*--------------------------modif ici --------------------*/   
-.image-container {
+.hover {
 
 	position: relative;
-	width: 200px;
-	height: 200px;
 	overflow: hidden;
 	background: #fff;
-
 }
-
 
 .image img {
 	max-width: 100%;
 }
 .caption {
-	width: 200px;
+  font-size: 15px;
+    color: white;
+    position: absolute;
+	width: 230px;
 	height: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background: #90ccdb;
-	z-index: 2;
 	font-weight: 300;
 	transition: all .5s;
 }
-
 
 
 .image-container-num2:hover .caption-num2 {
