@@ -107,6 +107,20 @@ h1#titre{
 	color: #90ccdb;
 }
 
+.attention{
+  margin-top: 30px;
+  text-align: center;
+  border: dotted 1px red;
+  color: black;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.attention h4{
+  color: red;
+  font-size: 25px;
+}
+
 .headerContainer {
 	padding: 0px;
 }
