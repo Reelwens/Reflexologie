@@ -159,6 +159,7 @@ h1#titre{
 	background:#90ccdb;
 	color: white;
 	padding: 10px 40px;
+    border: none;
 }
 
 .buttonReflexo:hover{
@@ -382,6 +383,7 @@ menu > li > a{
 	height: auto;
 	font-weight: 300;
 	transition: all .5s;
+    background:#90ccdb;
 }
 
 
@@ -465,7 +467,7 @@ menu > li > a{
 }
 
 .gridder-list:hover{
-	opacity:0.5;
+	opacity:0.8;
 }
 
 .hasSelectedItem .gridder-list{

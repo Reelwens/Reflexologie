@@ -127,3 +127,12 @@ function affiche_contenu1() {
 		cible.style.display = 'none';
 	}
 }
+
+function affiche_contenu3() {
+	var cible = document.getElementById('cible2');
+	if(cible.style.display != '') {
+		cible.style.display = '';
+	} else {
+		cible.style.display = 'none';
+	}
+}
