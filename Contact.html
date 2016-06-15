@@ -70,17 +70,17 @@
 
 					<div class="clearBoth"></div>
 
-					<form method="post" action="scripts/formulaire.php"> <!-- Début des champs formulaire -->
+					<form method="post" action="scripts/conatct.php" id="form"> <!-- Début des champs formulaire -->
 
 						<div class="row">   
 							<div class="col-lg-4 col-lg-offset-2 col-sm-6 text-center">
 								<label for="name"></label>
-								<input type="text" name="name" placeholder="Prénom" maxlength="30" />
+								<input type="text" name="name" placeholder="Prénom" id="surname" maxlength="30" />
 							</div>
 
 							<div class="col-lg-4 col-sm-6 text-center">
 								<label for="name"></label>
-								<input type="text" name="name" placeholder="Nom" maxlength="30"/>
+								<input type="text" name="name" placeholder="Nom" id="name" maxlength="30"/>
 							</div>
 							<div class="col-lg-2"></div>
 
@@ -88,12 +88,12 @@
 						<div class="row">
 							<div class="col-lg-4 col-lg-offset-2 col-sm-6 text-center">
 								<label for="email"></label>
-								<input type="email" name="email" placeholder="E-mail" maxlength="50"/>
+								<input type="email" name="email" placeholder="E-mail" id="email" maxlength="50"/>
 							</div>
 
 							<div class="col-lg-4 col-sm-6 text-center">
 								<label for="phone"></label>
-								<input type="tel" name="phone" placeholder="Numéro de téléphone"</input>
+								<input type="tel" name="phone" id="phone" placeholder="Numéro de téléphone"</input>
 							</div>
 							<div class="col-lg-2"></div>
 						</div>
@@ -101,12 +101,12 @@
 						<div class="row">
 							<div class="col-lg-8 col-lg-offset-2 col-sm-12 text-center">
 								<label for="comment"></label>
-								<textarea name="Commentaires" placeholder="Laissez un commentaire ou une question..."></textarea>
+								<textarea name="Commentaires" id="message" placeholder="Laissez un commentaire ou une question..."></textarea>
 							</div>
 						</div>
 
 						<div class="col-sm-4 col-sm-offset-4 text-center">
-							<input type="submit" name="submit" value="Envoyer"/>
+							<input type="submit" name="submit" id="envoye" value="Envoyer"/>
 						</div>
 
 						<div class="trait" class="col-lg-8 col-lg-offset-2">

@@ -127,3 +127,44 @@ function affiche_contenu1() {
 		cible.style.display = 'none';
 	}
 }
+
+function affiche_contenu3() {
+	var cible = document.getElementById('cible2');
+	if(cible.style.display != '') {
+		cible.style.display = '';
+	} else {
+		cible.style.display = 'none';
+	}
+}
+
+
+/*----------------- formulaire ------------------------*/
+
+
+
+
+
+
+
+  $('#form').submit(function(){
+        nom = $(this).find("#name").val();
+        prénom = $(this).find("#surname").val();
+        phone = $(this).find("#phone").val();
+        email = $(this).find("#email").val();
+        message = $(this).find("#message").val();
+ 
+        $.post('scripts/contact.php',{
+            nom:nom,
+            prénom:surname,
+            phone:phone,
+            email:email,
+            message:message
+        },function(data){
+            if(data.error=='Ok'){
+                alert('send !');
+            }else{
+                alert('entrer un mail valide');
+            }
+        },"json");
+        return false;
+    });

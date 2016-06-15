@@ -159,6 +159,7 @@ h1#titre{
 	background:#90ccdb;
 	color: white;
 	padding: 10px 40px;
+    border: none;
 }
 
 .buttonReflexo:hover{
@@ -360,9 +361,6 @@ menu > li > a{
 ----------------------------------------*/
 
 
-/*-----------text sur petite image--------------*/
-
-
 /*--------------------------modif ici --------------------*/   
 .hover {
 
@@ -388,6 +386,7 @@ menu > li > a{
 .image-container-num2:hover .caption-num2 {
 
 	transform: translateY(-75px);
+    background: #90ccdb;
 }
 
 /*------------------------------------------*/
@@ -465,7 +464,7 @@ menu > li > a{
 }
 
 .gridder-list:hover{
-	opacity:0.5;
+	opacity:0.8;
 }
 
 .hasSelectedItem .gridder-list{
