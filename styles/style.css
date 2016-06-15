@@ -108,17 +108,17 @@ h1#titre{
 }
 
 .attention{
-  margin-top: 30px;
-  text-align: center;
-  border: dotted 1px red;
-  color: black;
-  margin-bottom: 30px;
-  padding: 5px;
+	margin-top: 30px;
+	text-align: center;
+	border: dotted 1px red;
+	color: black;
+	margin-bottom: 30px;
+	padding: 5px;
 }
 
 .attention h4{
-  color: red;
-  font-size: 25px;
+	color: red;
+	font-size: 25px;
 }
 
 .headerContainer {
@@ -159,7 +159,7 @@ h1#titre{
 	background:#90ccdb;
 	color: white;
 	padding: 10px 40px;
-    border: none;
+	border: none;
 }
 
 .buttonReflexo:hover{
@@ -279,8 +279,8 @@ menu > li > a{
 }
 
 #RDV{
-  color: #90ccdb;
-  margin: 45px 0px 20px 0px;
+	color: #90ccdb;
+	margin: 45px 0px 20px 0px;
 }
 
 #Reflexologie{
@@ -288,7 +288,7 @@ menu > li > a{
 }
 
 #gras{
-  font-weight: bold;
+	font-weight: bold;
 }
 
 
@@ -301,7 +301,6 @@ menu > li > a{
 	width: 100%; /*largeur slider */
 }
 
-
 .carousel-indicators{
 	margin-left: 0;    
 }
@@ -312,10 +311,10 @@ menu > li > a{
 }
 
 .carousel-inner .item img{
-  height: 400px; 
-  top: 0;
-  left: 0;
-  min-width: 100%;
+	height: 400px; 
+	top: 0;
+	left: 0;
+	min-width: 100%;
 }
 
 .control-buttons{
@@ -373,9 +372,9 @@ menu > li > a{
 	max-width: 100%;
 }
 .caption {
-  font-size: 15px;
-    color: white;
-    position: absolute;
+	font-size: 15px;
+	color: white;
+	position: absolute;
 	width: 230px;
 	height: auto;
 	font-weight: 300;
@@ -386,7 +385,7 @@ menu > li > a{
 .image-container-num2:hover .caption-num2 {
 
 	transform: translateY(-75px);
-    background: #90ccdb;
+	background: #90ccdb;
 }
 
 /*------------------------------------------*/
@@ -451,7 +450,7 @@ menu > li > a{
 .gridder-show{
 	padding:20px;
 	background:#90ccdb;
-    color: white;
+	color: white;
 	margin-bottom:1%;
 }
 
@@ -481,85 +480,85 @@ menu > li > a{
 
 /* -------effet image ------ */
 .effet_img{
-  height: 350px;
-  background-image: url("../images/image_scroll.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	height: 350px;
+	background-image: url("../images/image_scroll.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 /*--------Table-------*/
 
 .coller td{
-  padding: 0px 10px;
+	padding: 0px 10px;
 }
 
 caption{
-  text-align: center;
-  font-size: bolder;
-  font-size: 30px;
-  color: #90ccdb;
-  margin-bottom: 10px;
+	text-align: center;
+	font-size: bolder;
+	font-size: 30px;
+	color: #90ccdb;
+	margin-bottom: 10px;
 }
 
 thead th{
-  background: #90ccdb;
-  color: #FFFFFF;
+	background: #90ccdb;
+	color: #FFFFFF;
 }
 
 tbody th{
-  text-align: left;
-  padding-left: 20px;
+	text-align: left;
+	padding-left: 20px;
 }
 #plusGros{
-  font-size: 16px;
-  color: black;
+	font-size: 16px;
+	color: black;
 }
 
 #bigger{
-  color: #90ccdb;
-  font-size: 23px;
-  margin-top: 20px;
+	color: #90ccdb;
+	font-size: 23px;
+	margin-top: 20px;
 }
 
 #evenBigger{
-  color: #90ccdb;
-  font-size: 26px;
-  font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 40px;
+	color: #90ccdb;
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 table{
-  margin: auto;
-  width: 62%;
-  margin-bottom: 20px;
-  border: #90ccdb solid 1px;
+	margin: auto;
+	width: 62%;
+	margin-bottom: 20px;
+	border: #90ccdb solid 1px;
 }
 th,td{
-  padding: 10px 5px;
-  text-align: center;
+	padding: 10px 5px;
+	text-align: center;
 }
 
 #centerth th{
-  text-align: center;
-  border: #90ccdb solid 1px; 
+	text-align: center;
+	border: #90ccdb solid 1px; 
 }
 
 
 
 /* -------Contact ------ */
 .col-lg-8 ul{
-  text-decoration: none;
+	text-decoration: none;
 }
 
 #deco li{
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 #Contact{

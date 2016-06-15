@@ -146,25 +146,25 @@ function affiche_contenu3() {
 
 
 
-  $('#form').submit(function(){
-        nom = $(this).find("#name").val();
-        prénom = $(this).find("#surname").val();
-        phone = $(this).find("#phone").val();
-        email = $(this).find("#email").val();
-        message = $(this).find("#message").val();
- 
-        $.post('scripts/contact.php',{
-            nom:nom,
-            prénom:surname,
-            phone:phone,
-            email:email,
-            message:message
-        },function(data){
-            if(data.error=='Ok'){
-                alert('send !');
-            }else{
-                alert('entrer un mail valide');
-            }
-        },"json");
-        return false;
-    });
+$('#form').submit(function(){
+	nom = $(this).find("#name").val();
+	prénom = $(this).find("#surname").val();
+	phone = $(this).find("#phone").val();
+	email = $(this).find("#email").val();
+	message = $(this).find("#message").val();
+
+	$.post('scripts/contact.php',{
+		nom:nom,
+		prénom:surname,
+		phone:phone,
+		email:email,
+		message:message
+	},function(data){
+		if(data.error=='Ok'){
+			alert('send !');
+		}else{
+			alert('entrer un mail valide');
+		}
+	},"json");
+	return false;
+});
