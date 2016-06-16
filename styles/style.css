@@ -478,6 +478,12 @@ menu > li > a{
 	display: none;
 }
 
+@media screen and (max-width: 768px) {
+	div.caption.caption-num2 {
+		display: none;
+	}
+}
+
 /* -------effet image ------ */
 .effet_img{
 	height: 350px;
