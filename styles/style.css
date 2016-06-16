@@ -140,6 +140,15 @@ h1#titre{
 	margin-bottom: 50px;
 }
 
+.PLS{
+  margin-bottom: 50px;
+  list-style-image: url(../images/lotus_min.png);
+  text-align: left;
+}
+.PLS h4{
+  color: #90ccdb;
+}
+
 
 .text h4{
 	margin-top: 45px;
@@ -150,8 +159,6 @@ h1#titre{
 }
 
 .centerText p{
-	padding-bottom: 80px;
-	margin-bottom: 70px;
 	font-size: 17px;
 	text-align: center;
 }
@@ -174,7 +181,7 @@ h1#titre{
 }
 
 
-.col-lg-4 h3{
+.col-lg-6 h3{
 	margin-top: 50px;
 	margin-bottom: 50px;
 	font-weight: 20x;
@@ -269,6 +276,13 @@ menu > li > a{
 	padding-left: 5px;
 	padding-right: 5px;
 }
+
+#panel{
+  text-align: center;
+  position: relative;
+  display: none;
+}
+
 /*---------Practicienne----*/
 #Practicienne{
 	margin-bottom:80px;
@@ -289,6 +303,10 @@ menu > li > a{
 
 #gras{
 	font-weight: bold;
+}
+
+#flip{
+  width: 40px;
 }
 
 
@@ -478,6 +496,17 @@ menu > li > a{
 	display: none;
 }
 
+.principes{
+  color: gray;
+  font-weight: bold;
+}
+
+.maux{
+  color: gray;
+  text-align: left;
+  font-weight: bold;
+}
+
 /* -------effet image ------ */
 .effet_img{
 	height: 350px;
@@ -548,17 +577,15 @@ th,td{
 
 
 /* -------Contact ------ */
-.col-lg-8 ul{
-	text-decoration: none;
-}
 
 #deco li{
 	text-align: center;
-	padding-top: 5px;
+	padding-top: 20px;
 	padding-bottom: 5px;
 	font-size: 20px;
 	font-weight: bold;
-	text-decoration: none;
+    list-style: none;
+  color: #90CCDB;
 }
 
 #Contact{
