@@ -381,11 +381,12 @@ menu > li > a{
 	transition: all .5s;
 }
 
+@media screen and (min-width: 768px) {
+	.image-container-num2:hover .caption-num2 {
 
-.image-container-num2:hover .caption-num2 {
-
-	transform: translateY(-75px);
-	background: #90ccdb;
+		transform: translateY(-75px);
+		background: #90ccdb;
+	}
 }
 
 /*------------------------------------------*/
@@ -479,8 +480,9 @@ menu > li > a{
 }
 
 @media screen and (max-width: 768px) {
-	div.caption.caption-num2 {
-		display: none;
+	.image-container-num2 .caption-num2 {
+		transform: translateY(-40px);
+		background: #90ccdb;
 	}
 }
 
