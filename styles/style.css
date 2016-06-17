@@ -141,12 +141,12 @@ h1#titre{
 }
 
 .PLS{
-  margin-bottom: 50px;
-  list-style-image: url(../images/lotus_min.png);
-  text-align: left;
+	margin-bottom: 50px;
+	list-style-image: url(../images/lotus_min.png);
+	text-align: left;
 }
 .PLS h4{
-  color: #90ccdb;
+	color: #90ccdb;
 }
 
 
@@ -278,9 +278,9 @@ menu > li > a{
 }
 
 #panel{
-  text-align: center;
-  position: relative;
-  display: none;
+	text-align: center;
+	position: relative;
+	display: none;
 }
 
 /*---------Practicienne----*/
@@ -306,7 +306,7 @@ menu > li > a{
 }
 
 #flip{
-  width: 40px;
+	width: 40px;
 }
 
 
@@ -399,11 +399,20 @@ menu > li > a{
 	transition: all .5s;
 }
 
+@media screen and (min-width: 768px) {
+	.image-container-num2:hover .caption-num2 {
+		transform: translateY(-75px);
+		background: #90ccdb;
+		transform: translateY(-75px);
+		background: #90ccdb;
+	}
+}
 
-.image-container-num2:hover .caption-num2 {
-
-	transform: translateY(-75px);
-	background: #90ccdb;
+@media screen and (max-width: 768px) {
+	.image-container-num2 .caption-num2 {
+		transform: translateY(-40px);
+		background: #90ccdb;
+	}
 }
 
 /*------------------------------------------*/
@@ -497,14 +506,14 @@ menu > li > a{
 }
 
 .principes{
-  color: gray;
-  font-weight: bold;
+	color: gray;
+	font-weight: bold;
 }
 
 .maux{
-  color: gray;
-  text-align: left;
-  font-weight: bold;
+	color: gray;
+	text-align: left;
+	font-weight: bold;
 }
 
 /* -------effet image ------ */
@@ -584,8 +593,8 @@ th,td{
 	padding-bottom: 5px;
 	font-size: 20px;
 	font-weight: bold;
-    list-style: none;
-  color: #90CCDB;
+	list-style: none;
+	color: #90CCDB;
 }
 
 #Contact{
