@@ -412,6 +412,9 @@ menu > li > a{
 	.image-container-num2 .caption-num2 {
 		transform: translateY(-40px);
 		background: #90ccdb;
+      font-size: 10px;
+      line-height: 10px;
+      width: 100%;
 	}
 }
 
