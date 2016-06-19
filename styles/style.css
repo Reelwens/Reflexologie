@@ -102,9 +102,15 @@ img{
 
 h1#titre{
 	color: #90ccdb;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 	font-size: 30px; 
 	color: #90ccdb;
+}
+
+#soustitre {
+	color: #bcbcbc;
+	font-size: 15px;
+	margin-top: 5px;
 }
 
 .attention{
@@ -595,7 +601,6 @@ th,td{
 	padding-top: 20px;
 	padding-bottom: 5px;
 	font-size: 20px;
-	font-weight: bold;
 	list-style: none;
 	color: #90CCDB;
 }
