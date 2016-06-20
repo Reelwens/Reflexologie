@@ -383,8 +383,10 @@ menu > li > a{
 * Grille
 ----------------------------------------*/
 
+.gridder-navigation{
+    text-align: left;
+}
 
-/*--------------------------modif ici --------------------*/   
 .hover {
 
 	position: relative;

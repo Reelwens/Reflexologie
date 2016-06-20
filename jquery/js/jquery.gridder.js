@@ -205,7 +205,7 @@
         animationSpeed: 400,
         animationEasing: "easeInOutExpo",
         showNav: true,
-        closeText: "X",    
+        closeText: "Retour",    
         onStart: function(){},
         onContent: function(){},
         onClosed: function(){}

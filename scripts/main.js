@@ -137,6 +137,14 @@ function affiche_contenu3() {
 	}
 }
 
+function affiche_prix() {
+	var cible = document.getElementById('prix');
+	if(cible.style.display != '') {
+		cible.style.display = '';
+	} else {
+		cible.style.display = 'none';
+	}
+}
 
 /*----------------- formulaire ------------------------*/
 
