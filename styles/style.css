@@ -4,6 +4,7 @@ body{
 	font-family: 'Titillium Web', sans-serif;
 	line-height: 25px;
 	color: grey;
+    overflow-x: hidden;
 }
 
 button{
